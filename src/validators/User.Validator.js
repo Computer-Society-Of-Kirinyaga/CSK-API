@@ -11,8 +11,6 @@ export const userRegisterValidator = (user) => {
         course: Joi.string().required(),
         yearOfStudy: Joi.number().integer().required(),
         techStack: Joi.array().items(Joi.string()).required(),
-        isDisabled: Joi.boolean(),
-        isUser: Joi.boolean(),
     });
     return userValidationSchema.validate(user);
 };

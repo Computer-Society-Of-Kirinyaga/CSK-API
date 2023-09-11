@@ -4,14 +4,14 @@
 
 > User Management
 
-    1. User Auth
+    1.User Auth
         -> login/logout
         -> CRUD -> BIO ->name,email,phone no,course, yearOfStudy, techStack
     2.Admin Auth
         -> Admin type
             -> SuperAdmin - activate or disable Normal Admin [isVerified &isSuperAdmin = true, isNormalAdmin = false]
             -> NormalAdmin - disable normal users account [isVerified & isSuperAdmin = false, isNormalAdmin = true]
-    3. Admin & User -> [isDisabled = false] After a successful login we get a JWT token and the users Details. Token valid for twelve hours
+    3.Admin & User -> [isDisabled = false] After a successful login we get a JWT token and the users Details. Token valid for twelve hours
 
 > Library Management System
 
@@ -30,6 +30,11 @@
 > Weakly Leaderboard
 
 > Daily Challenge
+
+## Baching strategy
+
+- Use this format to create a branch `featureName/yourName` or `bugName/yourName` ie `userAuthenticationFeature/JohnDoe` or `userAuthenticationBug/JohnDoe`
+- After you are done with your feature or bug create a pull request to the develop branch.
 
 ## Folder Structure
 
