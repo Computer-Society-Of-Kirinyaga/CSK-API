@@ -48,10 +48,6 @@ const userSchema = new mongoose.Schema(
             type: Boolean,
             default: false,
         },
-        isUser: {
-            type: Boolean,
-            default: true,
-        },
     }, { timestamps: true }
 );
 

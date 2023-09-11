@@ -1,5 +1,5 @@
 {
-  "name": "university-api",
+  "name": "csk-api",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -11,16 +11,16 @@
   "engines": {
     "node": ">=18.16.1"
   },
-  "bugs": "https://github.com/user/repo/issues",
+  "bugs": "https://github.com/Computer-Society-Of-Kirinyaga/CSK-API/issues",
   "homepage": "https://your-package.org",
   "repository": {
     "type": "git",
-    "url": "https://github.com/user/repo.git"
+    "url": "https://github.com/Computer-Society-Of-Kirinyaga/CSK-API"
   },
   "author": {
     "name": "Kevin Comba",
     "email": "kelchospense88@gmail.com",
-    "url": "https://linktr.ee/kevincomba"
+    "url": "https://kevincomba.me"
   },
   "contributors": [
     {
