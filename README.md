@@ -31,6 +31,12 @@
 
 > Daily Challenge
 
+## Available Branches
+
+- main - production code
+- refactored - refactored code ready to be merged to main
+- develop - development code note yet refactored
+
 ## Baching strategy
 
 - Use this format to create a branch `featureName/yourName` or `bugName/yourName` ie `userAuthenticationFeature/JohnDoe` or `userAuthenticationBug/JohnDoe`
