@@ -27,11 +27,17 @@
     3.Register/Confirmation
     4.Upcoming/Past
 
-> Weakly Leaderboard
+> Weakly Leaderboard (comming soon)
 
-> Daily Challenge
+> Daily Challenge (comming soon)
 
-## Baching strategy
+## Available Branches
+
+- main - production code
+- refactored - refactored code ready to be merged to main
+- develop - development code note yet refactored
+
+## Braching strategy
 
 - Use this format to create a branch `featureName/yourName` or `bugName/yourName` ie `userAuthenticationFeature/JohnDoe` or `userAuthenticationBug/JohnDoe`
 - After you are done with your feature or bug create a pull request to the develop branch.
