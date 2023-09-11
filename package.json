@@ -1,0 +1,48 @@
+{
+  "name": "university-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": ">=18.16.1"
+  },
+  "bugs": "https://github.com/user/repo/issues",
+  "homepage": "https://your-package.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/user/repo.git"
+  },
+  "author": {
+    "name": "Kevin Comba",
+    "email": "kelchospense88@gmail.com",
+    "url": "https://linktr.ee/kevincomba"
+  },
+  "contributors": [
+    {
+      "name": "Your Friend",
+      "email": "friend@example.com",
+      "url": "http://friends-website.com"
+    }
+  ],
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.9.0",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
