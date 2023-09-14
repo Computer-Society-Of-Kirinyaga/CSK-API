@@ -34,21 +34,20 @@ const adminSchema = new mongoose.Schema(
             trim: true,
             required: true
         },
-        isVerified: {
-            type: Boolean,
-            default: false
+        course: {
+            type: String,
+            required: true,
+            trim: true,
         },
-        isDisabled: {
-            type: Boolean,
-            default: false
+        yearOfStudy: {
+            type: Number,
+            required: true,
+            trim: true,
         },
-        isSuperAdmin: {
-            type: Boolean,
-            default: false
-        },
-        isNormalAdmin: {
-            type: Boolean,
-            default: true
+        userType: {
+            type: String,
+            enum: ['admin', 'superAdmin', "disabledUser"],
+            default: "admin"
         },
     }, { timestamps: true }
 );

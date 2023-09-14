@@ -7,11 +7,9 @@ export const adminRegisterValidator = (admin) => {
         userName: Joi.string().min(3).max(30).required(),
         password: Joi.string().min(4).required(),
         confirmPassword: Joi.ref('password'),
+        course: Joi.string().min(3).max(30).required(),
+        yearOfStudy: Joi.string().min(1).max(30).required(),
         phoneNo: Joi.string().required(),
-        isVerified: Joi.boolean(),
-        isDisabled: Joi.boolean(),
-        isSuperAdmin: Joi.boolean(),
-        isNormalAdmin: Joi.boolean(),
         techStack: Joi.array().items(Joi.string()).required(),
     });
     return adminValidationSchema.validate(admin);

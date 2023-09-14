@@ -35,7 +35,7 @@ const userSchema = new mongoose.Schema(
             trim: true,
         },
         yearOfStudy: {
-            type: Number,
+            type: String,
             required: true,
             trim: true,
         },
@@ -44,9 +44,10 @@ const userSchema = new mongoose.Schema(
             required: true,
             trim: true,
         },
-        isDisabled: {
-            type: Boolean,
-            default: false,
+        userType: {
+            type: String,
+            enum: ['user', 'disabledUser'],
+            default: "user"
         },
     }, { timestamps: true }
 );

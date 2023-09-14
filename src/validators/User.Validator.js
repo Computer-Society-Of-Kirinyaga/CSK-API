@@ -23,3 +23,11 @@ export const userLoginValidator = (user) => {
     return userLoginValidationSchema.validate(user);
 };
 
+export const userResetValidator = (user) => {
+    const userResetValidationSchema = Joi.object({
+        email: Joi.string().email().required().trim(),
+        phoneNo: Joi.string().required().trim(),
+    });
+    return userResetValidationSchema.validate(user);
+};
+
