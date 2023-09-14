@@ -21,3 +21,19 @@ export const tryCatchWrapper = async (handler, req, res) => {
         handleServerError(error, res);
     }
 };
+//Event Factory
+export const handleEventExists = (res) => {
+    res.status(401).json({ error: 'Event already exists. Choose a unique name to your Event.' });
+};
+
+export const handleEventNotFound = (res) => {
+    res.status(404).json({ message: 'Event not found' });
+};
+
+export const handleFutureEventNotFound = (res) => {
+    res.status(404).json({ message: 'No Future Event found' });
+};
+
+export const handlePastEventNotFound = (res) => {
+    res.status(404).json({ message: 'No past Event found' });
+};

@@ -74,7 +74,7 @@
     - User.Model - name, email, password, phoneNo, course, yearOfStudy, techStack, isDisabled, isUser
     - Admin.Model - name, email, password, phoneNo, isVerified, isDisabled, isSuperAdmin, isNormalAdmin,
     - Library.Model - name, description, tags, file, isDisabled
-    - Event.Model - name, description, location, time, eventType, isDisabled
+    - Event.Model - name, description, location, date, startTime, endTime, eventType, isDisabled
 
 2.  Routes
 

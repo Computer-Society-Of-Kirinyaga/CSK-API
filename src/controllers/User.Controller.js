@@ -33,7 +33,6 @@ export const getUsers = async (req, res) => {
         const usersResponse = await UserModel.find();
         usersResponse.length > 0 ? res.status(200).json(usersResponse) : res.status(404).json({ message: 'No users found' });
     };
-
     tryCatchWrapper(handler, req, res);
 };
 
@@ -43,7 +42,6 @@ export const getUser = async (req, res) => {
         const user = await UserModel.findById(id);
         user ? res.status(200).json(user) : handleUserNotFound(res);
     };
-
     tryCatchWrapper(handler, req, res);
 };
 
@@ -52,12 +50,10 @@ export const updateUser = async (req, res) => {
         const { id } = req.params;
         const { fullName, userName, email, password, course, yearOfStudy, techStack } = req.body;
         const user = await UserModel.findById(id);
-
         if (!user) {
             handleUserNotFound(res);
             return;
         }
-
         // Update only the available user properties
         email && (user.email = email);
         fullName && (user.fullName = fullName);
@@ -66,11 +62,9 @@ export const updateUser = async (req, res) => {
         course && (user.course = course);
         yearOfStudy && (user.yearOfStudy = yearOfStudy);
         techStack && (user.techStack = techStack);
-
         await user.save();
         res.status(200).json(user);
     };
-
     tryCatchWrapper(handler, req, res);
 };
 
