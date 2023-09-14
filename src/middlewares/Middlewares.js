@@ -18,17 +18,22 @@ export const authMiddleware = (app) => {
 
 //user levels-auth middleware function [superAdmin, admin, user, disabledUser]
 export const userTypeLoginRequired = (userType) => (req, res, next) => {
-    if (req.user.userType === userType) {
-        next();
-    } else if (userType === 'both' && (req.user.userType === 'admin' || req.user.userType === 'superAdmin')) {
-        next();
-    } else if (userType === 'all' && (req.user.userType === 'admin' || req.user.userType === 'superAdmin' || req.user.userType === 'user')) {
-        next();
-    } else if (req.user.userType === 'disabledUser') {
-        return res.status(401).json({ message: 'disabled user Account!' });
-    }
-    else {
-        return res.status(401).json({ message: 'Unauthorized user!' });
+    //check if user is not undefined and user type is equal to userType
+    if (req.user) {
+        if (req.user.userType === userType) {
+            next();
+        } else if (userType === 'both' && (req.user.userType === 'admin' || req.user.userType === 'superAdmin')) {
+            next();
+        } else if (userType === 'all' && (req.user.userType === 'admin' || req.user.userType === 'superAdmin' || req.user.userType === 'user')) {
+            next();
+        } else if (req.user.userType === 'disabledUser') {
+            return res.status(401).json({ message: 'disabled user Account!' });
+        }
+        else {
+            return res.status(401).json({ message: 'Unauthorized user!' });
+        }
+    } else {
+        return res.status(401).json({ message: 'Unauthorized user, invalid or missing token!' });
     }
 };
 

@@ -7,6 +7,8 @@ export const adminRegisterValidator = (admin) => {
         userName: Joi.string().min(3).max(30).required(),
         password: Joi.string().min(4).required(),
         confirmPassword: Joi.ref('password'),
+        course: Joi.string().min(3).max(30).required(),
+        yearOfStudy: Joi.string().min(1).max(30).required(),
         phoneNo: Joi.string().required(),
         techStack: Joi.array().items(Joi.string()).required(),
     });
