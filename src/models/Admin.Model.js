@@ -1,4 +1,3 @@
-import { string } from "joi";
 import mongoose from "mongoose";
 
 const adminSchema = new mongoose.Schema(
@@ -35,10 +34,20 @@ const adminSchema = new mongoose.Schema(
             trim: true,
             required: true
         },
+        course: {
+            type: String,
+            required: true,
+            trim: true,
+        },
+        yearOfStudy: {
+            type: Number,
+            required: true,
+            trim: true,
+        },
         userType: {
-            type: string,
+            type: String,
             enum: ['admin', 'superAdmin', "disabledUser"],
-            default: admin
+            default: "admin"
         },
     }, { timestamps: true }
 );

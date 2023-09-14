@@ -1,4 +1,5 @@
 import nodemailer from 'nodemailer';
+import bcrypt from 'bcrypt';
 
 export const loginRequired = (req, res, next) => {
     if (req.user) {
@@ -7,6 +8,7 @@ export const loginRequired = (req, res, next) => {
         return res.status(401).json({ message: 'Unauthorized user!' });
     }
 }
+
 
 export const capitalizeWords = (str) => {
     return str.replace(/\b\w+\b/g, function (match) {
