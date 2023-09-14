@@ -1,3 +1,4 @@
+import { string } from "joi";
 import mongoose from "mongoose";
 
 const adminSchema = new mongoose.Schema(
@@ -34,21 +35,10 @@ const adminSchema = new mongoose.Schema(
             trim: true,
             required: true
         },
-        isVerified: {
-            type: Boolean,
-            default: false
-        },
-        isDisabled: {
-            type: Boolean,
-            default: false
-        },
-        isSuperAdmin: {
-            type: Boolean,
-            default: false
-        },
-        isNormalAdmin: {
-            type: Boolean,
-            default: true
+        userType: {
+            type: string,
+            enum: ['admin', 'superAdmin', "disabledUser"],
+            default: admin
         },
     }, { timestamps: true }
 );
