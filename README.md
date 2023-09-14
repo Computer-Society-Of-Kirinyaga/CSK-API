@@ -119,3 +119,7 @@
 - EMAIL_PASSWORD =password
 
 > \*\*For email functionality to work with a gmail visit [this link](https://myaccount.google.com/apppasswords?pli=1&rapt=AEjHL4MAyZMTo4Iu6mJAeW1ZhLXbUgJpVRUsRnEsDAM4Nfk5lQHlWRP-1ovJgOhbcFqQ0Kx-a_oAtdUYxjFpXR3Lgiu6_2E5sw) and create an app by providing an app name and copy the generated password copy it and past it on EMAIL_PASSWORD [env]. [More info about nodemailer visit here](https://nodemailer.com/usage/using-gmail/)\*\*
+
+## Testing URL
+
+> Please import the thunder-collection_CSKAPI.json file to your thunderClient extension to test the API. The file is located in the SWAggerUI folder.
