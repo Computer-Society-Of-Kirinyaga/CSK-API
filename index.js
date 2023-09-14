@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import bodyParser from "body-parser";
 import userRoutes from "./src/routes/User.Routes.js";
+import EventRoutes from "./src/routes/Event.Routes.js";
 import adminRoutes from "./src/routes/Admin.Routes.js";
 import { authMiddleware, rateLimiterMiddleware } from "./src/middlewares/Middlewares.js"
 
@@ -33,6 +34,9 @@ app.use(bodyParser.json());
 
 // routes
 userRoutes(app);
+
+EventRoutes(app);
+
 adminRoutes(app);
 
 
