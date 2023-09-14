@@ -86,7 +86,6 @@
 
 3.  Controllers
 
-        - Auth.Controller
         - User.Controller
         - Admin.Controller
         - Library.Controller
@@ -102,5 +101,21 @@
 
 5.  Middlewares
 
-        - authMiddleware
-        - rateLimiterMiddleware
+        - authMiddleware - checks if the token is valid
+        - userTypeLoginRequired - checks if the user is a user, admin, superAdmin or disabledUser. This offers protection to routes that are only meant for a specific user type.
+            - [userLoginRequired] - user need to login to access the route
+            - [adminLoginRequired] - admin need to login to access the route
+            - [superAdminLoginRequired] - superAdmin need to login to access the route
+            - [bothAdminsLoginRequired] - either admin or superAdmin need to login to access the route
+            - [AnyLoginRequired] - any user type need to login to access the route
+        - rateLimiterMiddleware - limits the number of request a user can make to the server in a given time frame and IP address. This is to prevent DDOS attacks.
+
+## Dotenv Values
+
+- MONGO_URL=mongodb://127.0.0.1:27017/CSKUniversityDb
+- JWT_SECRET=universitySecret
+- PORT=5009
+- EMAIL_SENDER =senderEmail.gmail.com
+- EMAIL_PASSWORD =password
+
+> \*\*For email functionality to work with a gmail visit [this link](https://myaccount.google.com/apppasswords?pli=1&rapt=AEjHL4MAyZMTo4Iu6mJAeW1ZhLXbUgJpVRUsRnEsDAM4Nfk5lQHlWRP-1ovJgOhbcFqQ0Kx-a_oAtdUYxjFpXR3Lgiu6_2E5sw) and create an app by providing an app name and copy the generated password copy it and past it on EMAIL_PASSWORD [env]. [More info about nodemailer visit here](https://nodemailer.com/usage/using-gmail/)\*\*

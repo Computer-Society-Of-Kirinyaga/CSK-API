@@ -23,8 +23,8 @@ mongoose.connect(process.env.MONGO_URL, {
 });
 
 // Custom middlewares
-authMiddleware(app);
 rateLimiterMiddleware(app);
+authMiddleware(app);
 
 // body-parser setup
 app.use(bodyParser.urlencoded({ extended: true }));

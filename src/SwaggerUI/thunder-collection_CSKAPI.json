@@ -1,0 +1,180 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "CSKAPI",
+    "dateExported": "2023-09-14T11:19:19.351Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "f4d9090a-743a-45a7-8d88-89b426fb50cc",
+            "name": "Users",
+            "containerId": "",
+            "created": "2023-09-11T12:11:05.599Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "601fca7a-3844-4b4c-b0e5-dce627dad61f",
+            "name": "Auth",
+            "containerId": "",
+            "created": "2023-09-13T11:50:44.741Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "40b005cf-159a-4abe-ab2f-3b788d3c05fb",
+            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
+            "containerId": "",
+            "name": "defaultRoute",
+            "url": "http://localhost:5009/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-09-11T12:03:43.979Z",
+            "modified": "2023-09-11T12:04:10.655Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "59467fd8-a67a-4c49-aeaf-01983e9f1f9d",
+            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
+            "containerId": "f4d9090a-743a-45a7-8d88-89b426fb50cc",
+            "name": "createUser",
+            "url": "/users/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-09-11T12:12:31.991Z",
+            "modified": "2023-09-13T18:11:05.852Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"fullName\": \"kelcho spense\", \n  \"email\": \"kelchospense88@mail.com\" , \n  \"userName\": \"user2\" ,\n  \"password\": \"pass2\" ,\n  \"confirmPassword\":\"pass2\",\n  \"phoneNo\": \"+25478945698\" , \n  \"course\": \"cs\", \n  \"yearOfStudy\": \"2\" ,\n  \"techStack\" : [\"cycber sec\",\"mearn\"]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3db8c459-12e1-44d1-9b40-b06573264d33",
+            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
+            "containerId": "601fca7a-3844-4b4c-b0e5-dce627dad61f",
+            "name": "userLogin",
+            "url": "/users/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-09-13T11:50:54.020Z",
+            "modified": "2023-09-13T18:13:45.672Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userName\": \"user1\" ,\n  \"password\": \"pass1\" \n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "bbdcd66b-91e1-455b-beb3-aefb55438e56",
+            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
+            "containerId": "f4d9090a-743a-45a7-8d88-89b426fb50cc",
+            "name": "getUser",
+            "url": "/users/64ff203e73358eb955dcc653",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-09-11T14:28:19.526Z",
+            "modified": "2023-09-11T14:28:19.526Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"fullName\": \"fname\", \n  \"email\": \"user@mail.com\" , \n  \"userName\": \"user\" ,\n  \"password\": \"pass\" ,\n  \"phoneNo\": \"+25478945698\" , \n  \"course\": \"cs\", \n  \"yearOfStudy\": \"2\" ,\n  \"techStack\" : [\"cycber sec\",\"mearn\"]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a19f56d1-6d04-4fe2-b9eb-a9da0fbce89d",
+            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
+            "containerId": "601fca7a-3844-4b4c-b0e5-dce627dad61f",
+            "name": "userResetCredentails",
+            "url": "/users/auth/reset",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-09-13T11:56:33.598Z",
+            "modified": "2023-09-13T17:14:12.588Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "phoneNo",
+                        "value": "+254715364294"
+                    },
+                    {
+                        "name": "email",
+                        "value": "kelchospenseworks247@gmail.com"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ffd47c4b-9d9d-4681-9610-ed6a4010e2da",
+            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
+            "containerId": "f4d9090a-743a-45a7-8d88-89b426fb50cc",
+            "name": "deleteUser ",
+            "url": "/users/64ff203e73358eb955dcc652",
+            "method": "DELETE",
+            "sortNum": 25000,
+            "created": "2023-09-11T14:36:43.797Z",
+            "modified": "2023-09-11T14:37:33.116Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "70ac9a80-9843-4984-ba2c-27c8bc170a18",
+            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
+            "containerId": "f4d9090a-743a-45a7-8d88-89b426fb50cc",
+            "name": "getUsers",
+            "url": "/users",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-09-11T14:28:24.799Z",
+            "modified": "2023-09-13T18:48:28.988Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InVzZXIxIiwiZW1haWwiOiJrZWxjaG9zcGVuc2V3b3JrczI0N0BtYWlsLmNvbSIsInVzZXJUeXBlIjoidXNlciIsImlkIjoiNjUwMWY5ZTJlZjUzODA1YmYwYTUzM2NhIiwiaWF0IjoxNjk0NjMwODg3LCJleHAiOjE2OTQ2NzQwODd9.q6rFQzw7SVSgWH2KTrmXUA6iADnFMegHir7pWfwvY1I"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9852e2b2-2052-4ad3-a417-4171d2ac8ff8",
+            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
+            "containerId": "f4d9090a-743a-45a7-8d88-89b426fb50cc",
+            "name": "updateUser",
+            "url": "/users/64ff203e73358eb955dcc652",
+            "method": "PATCH",
+            "sortNum": 40000,
+            "created": "2023-09-11T14:28:27.391Z",
+            "modified": "2023-09-11T14:33:30.930Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \n  \"email\": \"user@mail.com\" , \n  \"userName\": \"user\" ,\n  \"password\": \"pass\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:5009"
+        }
+    }
+}
