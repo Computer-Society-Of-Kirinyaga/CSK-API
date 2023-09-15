@@ -1,6 +1,6 @@
 import { eventRegisterValidator } from '../validators/Event.Validator.js';
 import EventModel from '../models/Event.Model.js';
-import { handleValidationError, handleEventExists, handleEventNotFound, handleFutureEventNotFound, handlePastEventNotFound, tryCatchWrapper } from '../factory/Factory.js';
+import { handleMissingParamsError, handleValidationError, handleEventExists, handleEventNotFound, handleFutureEventNotFound, handlePastEventNotFound, tryCatchWrapper } from '../factory/Factory.js';
 
 
 export const createEvent = async (req, res) => {
@@ -11,6 +11,10 @@ export const createEvent = async (req, res) => {
             return;
         }
         const { name, description, location, date, startTime, endTime, eventType, isDisabled } = req.body;
+        if (!name && !description && !location && !date && !startTime && !endTime && !eventType && !isDisabled) {
+            handleValidationError({ details: [{ message: "At least one property must be updated" }] }, res);
+            return;
+        }
         const existingEvent = await EventModel.findOne({ name: name });
         if (existingEvent) {
             handleEventExists(res);
@@ -33,6 +37,10 @@ export const getEvents = async (req, res) => {
 export const getEvent = async (req, res) => {
     const handler = async (req, res) => {
         const { id } = req.params;
+        if (!id) {
+            handleMissingParamsError(res);
+            return;
+        }
         const event = await EventModel.findById(id);
         event ? res.status(200).json(event) : handleEventNotFound(res);
     };
@@ -61,7 +69,15 @@ export const getFutureEvents = async (req, res) => {
 export const updateEvent = async (req, res) => {
     const handler = async (req, res) => {
         const { id } = req.params;
+        if (!id) {
+            handleMissingParamsError(res);
+            return;
+        }
         const { name, description, location, date, startTime, endTime, eventType, isDisabled } = req.body;
+        if (!name && !description && !location && !date && !startTime && !endTime && !eventType && !isDisabled) {
+            handleValidationError({ details: [{ message: "At least one property must be updated" }] }, res);
+            return;
+        }
         const event = await EventModel.findById(id);
         if (!event) {
             handleEventNotFound(res);
@@ -85,6 +101,10 @@ export const updateEvent = async (req, res) => {
 export const deleteEvent = async (req, res) => {
     const handler = async (req, res) => {
         const { id } = req.params;
+        if (!id) {
+            handleMissingParamsError(res);
+            return;
+        }
         const event = await EventModel.findByIdAndDelete(id);
         event ? res.status(200).json({ message: "Event deleted successfully" }) : handleEventNotFound(res);
     };

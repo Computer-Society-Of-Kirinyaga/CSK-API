@@ -6,9 +6,11 @@ import bodyParser from "body-parser";
 import userRoutes from "./src/routes/User.Routes.js";
 import EventRoutes from "./src/routes/Event.Routes.js";
 import adminRoutes from "./src/routes/Admin.Routes.js";
+import libraryRoutes from "./src/routes/Library.Routes.js";
 import { authMiddleware, rateLimiterMiddleware } from "./src/middlewares/Middlewares.js"
 
-const app = express();
+const app = express(); //express instance
+//config cors & dotenv
 app.use(cors());
 dotenv.config();
 
@@ -34,16 +36,14 @@ app.use(bodyParser.json());
 
 // routes
 userRoutes(app);
-
 EventRoutes(app);
-
 adminRoutes(app);
+libraryRoutes(app);
 
 
 app.get("/", (req, res) => {
     res.send(`<h3>Hello😁 Welcome CSK API!</h3>`);
-})
-
+});
 
 app.listen(process.env.PORT || 5001, () => {
     console.log(`Server started on port ${process.env.PORT}`);

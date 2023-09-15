@@ -5,7 +5,8 @@ const librarySchema = new mongoose.Schema(
         name: {
             type: String,
             trim: true,
-            required: true
+            required: true,
+            unique: true
         },
         description: {
             type: String,
@@ -15,9 +16,15 @@ const librarySchema = new mongoose.Schema(
             type: [String],
             trim: true,
         },
-        file: {
+        fileURL: {
             type: String,
-            trim: true
+            trim: true,
+            required: true
+        },
+        uploadedBy: {
+            type: String,
+            trim: true,
+            required: true
         },
         isDisabled: {
             type: Boolean,
