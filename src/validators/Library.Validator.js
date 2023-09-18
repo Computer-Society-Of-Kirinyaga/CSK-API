@@ -5,7 +5,11 @@ export const libraryRegisterValidator = (library) => {
         name: Joi.string().required(),
         description: Joi.string(),
         tags: Joi.array().items(Joi.string()),
-        fileURL: Joi.string(),
+        fileURL: Joi.array().items({
+            name: Joi.string().required(),
+            type: Joi.string().required(),
+            downloadURL: Joi.string().required(),
+        }),
         uploadedBy: Joi.string().required(),
     });
     return libraryValidationSchema.validate(library);

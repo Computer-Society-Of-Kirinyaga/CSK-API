@@ -11,6 +11,10 @@ const eventSchema = new mongoose.Schema(
             type: String,
             trim: true,
         },
+        posterURL: {
+            type: String,
+            trim: true,
+        },
         location: {
             type: String,
             trim: true,

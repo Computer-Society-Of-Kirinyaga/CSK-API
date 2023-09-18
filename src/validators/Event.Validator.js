@@ -5,6 +5,7 @@ export const eventRegisterValidator = (event) => {
         name: Joi.string().required(),
         description: Joi.string(),
         location: Joi.string(),
+        posterURL: Joi.string(),
         date: Joi.date(),
         startTime: Joi.string(),
         endTime: Joi.string(),
