@@ -1,82 +1,110 @@
 {
     "client": "Thunder Client",
     "collectionName": "CSKAPI",
-    "dateExported": "2023-09-14T21:41:53.451Z",
+    "dateExported": "2023-09-18T15:05:42.889Z",
     "version": "1.1",
     "folders": [
         {
-            "_id": "f4d9090a-743a-45a7-8d88-89b426fb50cc",
+            "_id": "f94b8485-67f2-49f7-91b6-36e57d144993",
             "name": "Users",
             "containerId": "",
-            "created": "2023-09-11T12:11:05.599Z",
+            "created": "2023-09-14T21:51:16.308Z",
             "sortNum": 10000
         },
         {
-            "_id": "601fca7a-3844-4b4c-b0e5-dce627dad61f",
+            "_id": "5ad2fa04-56ee-4560-a848-67cd3c61fdab",
             "name": "Auth",
             "containerId": "",
-            "created": "2023-09-13T11:50:44.741Z",
+            "created": "2023-09-14T21:51:16.309Z",
             "sortNum": 20000
         },
         {
-            "_id": "148af8e0-bf3c-4842-bda6-f12c8cb7d553",
+            "_id": "fcef9c72-c2c2-4f39-b256-764d8462f2b1",
             "name": "Admin",
             "containerId": "",
-            "created": "2023-09-14T13:10:09.824Z",
+            "created": "2023-09-14T21:51:16.312Z",
             "sortNum": 30000
         },
         {
-            "_id": "f9393c0f-46cf-4fea-853f-10f5f40dc0c2",
+            "_id": "7d229951-6f17-4b63-8cc3-e1391abbd6ff",
             "name": "Events",
             "containerId": "",
-            "created": "2023-09-13T14:47:36.068Z",
+            "created": "2023-09-14T21:51:16.311Z",
             "sortNum": 40000
+        },
+        {
+            "_id": "db542dfe-7993-4e96-8933-044c6431e598",
+            "name": "Library",
+            "containerId": "",
+            "created": "2023-09-15T11:40:10.137Z",
+            "sortNum": 50000
+        },
+        {
+            "_id": "0cd6b187-d838-496b-b44f-1ee1558a684e",
+            "name": "Files",
+            "containerId": "",
+            "created": "2023-09-16T11:20:03.652Z",
+            "sortNum": 60000
+        },
+        {
+            "_id": "2406b80a-3ae3-4d04-8456-5450859fab42",
+            "name": "Library",
+            "containerId": "0cd6b187-d838-496b-b44f-1ee1558a684e",
+            "created": "2023-09-18T12:45:52.317Z",
+            "sortNum": 70000
+        },
+        {
+            "_id": "cbaa5833-2704-448a-bbd1-390e356ff896",
+            "name": "Event",
+            "containerId": "0cd6b187-d838-496b-b44f-1ee1558a684e",
+            "created": "2023-09-18T12:46:13.254Z",
+            "sortNum": 80000
         }
     ],
     "requests": [
         {
-            "_id": "40b005cf-159a-4abe-ab2f-3b788d3c05fb",
-            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
+            "_id": "4aeb99c2-6284-41d0-97e2-f545fe1019f5",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
             "containerId": "",
             "name": "defaultRoute",
             "url": "http://localhost:5009/",
             "method": "GET",
             "sortNum": 10000,
-            "created": "2023-09-11T12:03:43.979Z",
-            "modified": "2023-09-11T12:04:10.655Z",
+            "created": "2023-09-14T21:51:16.309Z",
+            "modified": "2023-09-14T21:51:16.309Z",
             "headers": [],
             "params": [],
             "tests": []
         },
         {
-            "_id": "59467fd8-a67a-4c49-aeaf-01983e9f1f9d",
-            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
-            "containerId": "f4d9090a-743a-45a7-8d88-89b426fb50cc",
+            "_id": "81423c59-7ade-48e5-a910-3fd2417cb090",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "f94b8485-67f2-49f7-91b6-36e57d144993",
             "name": "createUser",
             "url": "/users/",
             "method": "POST",
             "sortNum": 10000,
-            "created": "2023-09-11T12:12:31.991Z",
-            "modified": "2023-09-14T12:34:48.152Z",
+            "created": "2023-09-14T21:51:16.310Z",
+            "modified": "2023-09-15T14:04:49.290Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"fullName\": \"kelcho spense\", \n  \"email\": \"kelchospense@mail.com\" , \n  \"userName\": \"user3\" ,\n  \"password\": \"pass3\" ,\n  \"confirmPassword\":\"pass3\",\n  \"phoneNo\": \"+25478945698\" , \n  \"course\": \"cs\", \n  \"yearOfStudy\": \"3\" ,\n  \"techStack\" : [\"dotnet\",\"mearn\"]\n}",
+                "raw": "{\n  \"fullName\": \"kelcho spense1\", \n  \"email\": \"kelchospense1@mail.com\" , \n  \"userName\": \"user31\" ,\n  \"password\": \"pass31\" ,\n  \"confirmPassword\":\"pass31\",\n  \"phoneNo\": \"+25478945698\" , \n  \"course\": \"cs\", \n  \"yearOfStudy\": \"3\" ,\n  \"techStack\" : [\"dotnet\",\"mearn\"]\n}",
                 "form": []
             },
             "tests": []
         },
         {
-            "_id": "3db8c459-12e1-44d1-9b40-b06573264d33",
-            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
-            "containerId": "601fca7a-3844-4b4c-b0e5-dce627dad61f",
+            "_id": "446c6236-9b2b-414e-8bad-b1653be0fa5a",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "5ad2fa04-56ee-4560-a848-67cd3c61fdab",
             "name": "userLogin",
             "url": "/users/auth/login",
             "method": "POST",
             "sortNum": 10000,
-            "created": "2023-09-13T11:50:54.020Z",
-            "modified": "2023-09-13T18:13:45.672Z",
+            "created": "2023-09-14T21:51:16.315Z",
+            "modified": "2023-09-14T21:51:16.315Z",
             "headers": [],
             "params": [],
             "body": {
@@ -87,15 +115,15 @@
             "tests": []
         },
         {
-            "_id": "6f2e4bdb-9770-4203-8864-55eb6466e7d4",
-            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
-            "containerId": "148af8e0-bf3c-4842-bda6-f12c8cb7d553",
+            "_id": "4a4dafb8-6827-4b56-8974-f18e83ba5ed8",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "fcef9c72-c2c2-4f39-b256-764d8462f2b1",
             "name": "createAdmin",
             "url": "/admins/",
             "method": "POST",
             "sortNum": 10000,
-            "created": "2023-09-14T13:10:14.104Z",
-            "modified": "2023-09-14T15:12:55.424Z",
+            "created": "2023-09-14T21:51:16.324Z",
+            "modified": "2023-09-14T21:51:16.324Z",
             "headers": [],
             "params": [],
             "body": {
@@ -106,15 +134,95 @@
             "tests": []
         },
         {
-            "_id": "74d959b8-2d8e-402d-82a2-ed74221967e7",
-            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
-            "containerId": "601fca7a-3844-4b4c-b0e5-dce627dad61f",
+            "_id": "a90f702f-7ef7-4f79-8094-b37e0b142b40",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "db542dfe-7993-4e96-8933-044c6431e598",
+            "name": "getEvents Copy",
+            "url": "/events",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-09-15T11:40:20.843Z",
+            "modified": "2023-09-15T11:40:20.843Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "eb92b00c-bbe7-486a-bfd0-162e60e318d3",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "2406b80a-3ae3-4d04-8456-5450859fab42",
+            "name": "uploadLibraryFile",
+            "url": "/libraryUpload",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-09-16T11:20:31.475Z",
+            "modified": "2023-09-18T12:44:58.024Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [],
+                "files": [
+                    {
+                        "name": "filename",
+                        "value": "c:\\Users\\KevinCombaGatimu\\Pictures\\cicely_cyber-realistic_c4d_blender_isometric_cute_adidas_style__f6506346-e7b8-43c3-bcc9-30ae7f933da7.png"
+                    },
+                    {
+                        "name": "filename",
+                        "value": "c:\\Users\\KevinCombaGatimu\\Pictures\\cicely_cyber-realistic_c4d_blender_isometric_cute_Boeing_style__d01616dd-6ee6-45e1-b869-8912d9bc8d9f.png"
+                    },
+                    {
+                        "name": "filename",
+                        "value": "c:\\Users\\KevinCombaGatimu\\Pictures\\cicely_cyber-realistic_c4d_blender_isometric_cute_sony_style_in_2726b43a-697e-4909-8670-50182a93686f.png"
+                    },
+                    {
+                        "name": "filename",
+                        "value": "c:\\Users\\KevinCombaGatimu\\Pictures\\cicely_cyber-realistic_c4d_blender_isometric_cute_starbucks_sty_ee3789fc-c289-4306-9b3f-6df5f9e534fb.png"
+                    },
+                    {
+                        "name": "filename",
+                        "value": "c:\\Users\\KevinCombaGatimu\\Documents\\Jitu Training Orientation.pptx"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "3ce945b8-ec02-48e4-b8e3-c38f0a4bdb0e",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "cbaa5833-2704-448a-bbd1-390e356ff896",
+            "name": "uploadEventFile",
+            "url": "/eventUpload",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-09-18T13:01:31.656Z",
+            "modified": "2023-09-18T13:02:31.346Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [],
+                "files": [
+                    {
+                        "name": "filename",
+                        "value": "c:\\Users\\KevinCombaGatimu\\Pictures\\0.jpg"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "2c172a21-a0bb-41c2-b1d9-9cedaa52ba0c",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "5ad2fa04-56ee-4560-a848-67cd3c61fdab",
             "name": "adminLogin",
             "url": "/admins/auth/login",
             "method": "POST",
             "sortNum": 15000,
-            "created": "2023-09-14T13:47:59.457Z",
-            "modified": "2023-09-14T15:34:56.349Z",
+            "created": "2023-09-14T21:51:16.328Z",
+            "modified": "2023-09-14T21:51:16.328Z",
             "headers": [],
             "params": [],
             "body": {
@@ -125,15 +233,15 @@
             "tests": []
         },
         {
-            "_id": "bbdcd66b-91e1-455b-beb3-aefb55438e56",
-            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
-            "containerId": "f4d9090a-743a-45a7-8d88-89b426fb50cc",
+            "_id": "8f0c22eb-167c-47fa-a99e-1736bcdd4a73",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "f94b8485-67f2-49f7-91b6-36e57d144993",
             "name": "getUser",
             "url": "/users/6501f9e2ef53805bf0a533ca",
             "method": "GET",
             "sortNum": 20000,
-            "created": "2023-09-11T14:28:19.526Z",
-            "modified": "2023-09-14T20:29:24.086Z",
+            "created": "2023-09-14T21:51:16.311Z",
+            "modified": "2023-09-14T21:51:16.311Z",
             "headers": [
                 {
                     "name": "Authorization",
@@ -149,15 +257,15 @@
             "tests": []
         },
         {
-            "_id": "a19f56d1-6d04-4fe2-b9eb-a9da0fbce89d",
-            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
-            "containerId": "601fca7a-3844-4b4c-b0e5-dce627dad61f",
+            "_id": "60e8740d-b244-4f60-aac4-552a1c1da5da",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "5ad2fa04-56ee-4560-a848-67cd3c61fdab",
             "name": "userResetCredentails",
             "url": "/users/auth/reset",
             "method": "POST",
             "sortNum": 20000,
-            "created": "2023-09-13T11:56:33.598Z",
-            "modified": "2023-09-13T17:14:12.588Z",
+            "created": "2023-09-14T21:51:16.316Z",
+            "modified": "2023-09-14T21:51:16.316Z",
             "headers": [],
             "params": [],
             "body": {
@@ -177,15 +285,29 @@
             "tests": []
         },
         {
-            "_id": "42ec39ac-2fb6-4e83-af41-06da43430ac8",
-            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
-            "containerId": "148af8e0-bf3c-4842-bda6-f12c8cb7d553",
+            "_id": "eecd61ad-b5d4-42ff-8c80-1f16ae77d519",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "7d229951-6f17-4b63-8cc3-e1391abbd6ff",
+            "name": "getEvents",
+            "url": "/events",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-09-14T21:51:16.318Z",
+            "modified": "2023-09-14T21:52:20.985Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "11078cdd-4a93-4019-9787-3f618d1c8bcc",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "fcef9c72-c2c2-4f39-b256-764d8462f2b1",
             "name": "getAdmins",
             "url": "/admins/",
             "method": "GET",
             "sortNum": 20000,
-            "created": "2023-09-14T13:10:35.596Z",
-            "modified": "2023-09-14T20:31:29.632Z",
+            "created": "2023-09-14T21:51:16.325Z",
+            "modified": "2023-09-14T21:51:16.325Z",
             "headers": [
                 {
                     "name": "Authorization",
@@ -196,29 +318,104 @@
             "tests": []
         },
         {
-            "_id": "ffd47c4b-9d9d-4681-9610-ed6a4010e2da",
-            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
-            "containerId": "f4d9090a-743a-45a7-8d88-89b426fb50cc",
+            "_id": "80249297-590c-48a0-af92-525fa9b727f1",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "db542dfe-7993-4e96-8933-044c6431e598",
+            "name": "CreateLibFile",
+            "url": "/library",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-09-15T11:41:12.985Z",
+            "modified": "2023-09-16T12:50:12.707Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImtlbGNobyIsImVtYWlsIjoia2VsY2hvc3BlbnNld29ya3MyNDdAZ21haWwuY29tIiwidXNlclR5cGUiOiJhZG1pbiIsImlkIjoiNjUwMzIyZjdkMDgxMzBiYTljYjVhNmRkIiwiaWF0IjoxNjk0ODY3OTI1LCJleHAiOjE2OTQ5MTExMjV9.pQYFh8VVj5ZCspENxuCKsZW1uYZBZ3kq5Szk2EuEOKM"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Azure updated3\",\n  \"description\":\"Azure fundamentals updated3\",\n  \"tags\":[\"react\",\"node\"],\n  \"fileURL\":[\n    {\n      \"name\": \"cicely_cyber-realistic_c4d_blender_isometric_cute_adidas_style__f6506346-e7b8-43c3-bcc9-30ae7f933da7.png\",\n      \"type\": \"image/png\",\n      \"downloadURL\": \"https://firebasestorage.googleapis.com/v0/b/cskapi-a97c8.appspot.com/o/files%2Fcicely_cyber-realistic_c4d_blender_isometric_cute_adidas_style__f6506346-e7b8-43c3-bcc9-30ae7f933da7.png_2023-9-16%2015%3A24%3A22_ag9app9g30dj6k9j9rp21n?alt=media&token=0376c016-1b64-48f6-9062-2a0a1d95eca7\"\n    },\n    {\n      \"name\": \"cicely_cyber-realistic_c4d_blender_isometric_cute_Boeing_style__d01616dd-6ee6-45e1-b869-8912d9bc8d9f.png\",\n      \"type\": \"image/png\",\n      \"downloadURL\": \"https://firebasestorage.googleapis.com/v0/b/cskapi-a97c8.appspot.com/o/files%2Fcicely_cyber-realistic_c4d_blender_isometric_cute_Boeing_style__d01616dd-6ee6-45e1-b869-8912d9bc8d9f.png_2023-9-16%2015%3A24%3A22_tjt27jyxcr01mnnh30yjaq?alt=media&token=a477669f-3ebb-4c29-bfd4-91718f1e10dc\"\n    }\n    ],\n  \"uploadedBy\":\"UserName3\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d3f4c596-874a-4cf5-bed6-d6db66a559c2",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "2406b80a-3ae3-4d04-8456-5450859fab42",
+            "name": "deleteLibraryFile",
+            "url": "/libraryUpload/0.jpg",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2023-09-16T13:02:41.572Z",
+            "modified": "2023-09-18T12:45:03.470Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9e739fd8-65b3-489a-8c1e-72a949929604",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "cbaa5833-2704-448a-bbd1-390e356ff896",
+            "name": "uploadManyEventFile [MAX5] ",
+            "url": "/eventUpload/many",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-09-18T13:19:33.126Z",
+            "modified": "2023-09-18T13:22:03.336Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [],
+                "files": [
+                    {
+                        "name": "filename",
+                        "value": "c:\\Users\\KevinCombaGatimu\\Pictures\\0.jpg"
+                    },
+                    {
+                        "name": "filename",
+                        "value": "c:\\Users\\KevinCombaGatimu\\Pictures\\2.jpg"
+                    },
+                    {
+                        "name": "filename",
+                        "value": "c:\\Users\\KevinCombaGatimu\\Pictures\\3.jpg"
+                    },
+                    {
+                        "name": "filename",
+                        "value": "c:\\Users\\KevinCombaGatimu\\Pictures\\4.jpg"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "7a8918f1-360f-47c2-ad58-3fc64d24a80c",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "f94b8485-67f2-49f7-91b6-36e57d144993",
             "name": "deleteUser ",
             "url": "/users/64ff203e73358eb955dcc652",
             "method": "DELETE",
             "sortNum": 25000,
-            "created": "2023-09-11T14:36:43.797Z",
-            "modified": "2023-09-11T14:37:33.116Z",
+            "created": "2023-09-14T21:51:16.314Z",
+            "modified": "2023-09-14T21:51:16.314Z",
             "headers": [],
             "params": [],
             "tests": []
         },
         {
-            "_id": "179d36a9-70a6-4617-940d-ce2346a8cde2",
-            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
-            "containerId": "148af8e0-bf3c-4842-bda6-f12c8cb7d553",
+            "_id": "8be7e344-440e-40a2-8750-d914e1a60364",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "fcef9c72-c2c2-4f39-b256-764d8462f2b1",
             "name": "getAdmin",
             "url": "/admins/65031d015be1f178ae2b4358",
             "method": "GET",
             "sortNum": 25000,
-            "created": "2023-09-14T14:14:35.678Z",
-            "modified": "2023-09-14T20:38:33.284Z",
+            "created": "2023-09-14T21:51:16.329Z",
+            "modified": "2023-09-14T21:51:16.329Z",
             "headers": [
                 {
                     "name": "Authorization",
@@ -229,48 +426,81 @@
             "tests": []
         },
         {
-            "_id": "70ac9a80-9843-4984-ba2c-27c8bc170a18",
-            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
-            "containerId": "f4d9090a-743a-45a7-8d88-89b426fb50cc",
+            "_id": "9c89652d-fd1e-4f61-8106-0f5831bb02b6",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "f94b8485-67f2-49f7-91b6-36e57d144993",
             "name": "getUsers",
             "url": "/users",
             "method": "GET",
             "sortNum": 30000,
-            "created": "2023-09-11T14:28:24.799Z",
-            "modified": "2023-09-14T20:22:39.823Z",
+            "created": "2023-09-14T21:51:16.312Z",
+            "modified": "2023-09-15T14:09:56.331Z",
             "headers": [
                 {
                     "name": "Authorization",
-                    "value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImtlbGNobyIsImVtYWlsIjoia2VsY2hvc3BlbnNld29ya3MyNDdAZ21haWwuY29tIiwidXNlclR5cGUiOiJhZG1pbiIsImlkIjoiNjUwMzIyZjdkMDgxMzBiYTljYjVhNmRkIiwiaWF0IjoxNjk0NzIyOTMzLCJleHAiOjE2OTQ3NjYxMzN9.xwZhhVpvIoTzR1aWyr9IQ1TjVcIEUZIJvaF44UOZEWA"
+                    "value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InVzZXIxIiwiZW1haWwiOiJrZWxjaG9zcGVuc2V3b3JrczI0N0BtYWlsLmNvbSIsInVzZXJUeXBlIjoidXNlciIsImlkIjoiNjUwMWY5ZTJlZjUzODA1YmYwYTUzM2NhIiwiaWF0IjoxNjk0Nzg2OTczLCJleHAiOjE2OTQ4MzAxNzN9.zpRWzNXaQolDczwQXljcS-KhWW87lZckok4LH3aR8XQ"
                 }
             ],
             "params": [],
             "tests": []
         },
         {
-            "_id": "01329d90-3e56-4338-867c-831dd105fe97",
-            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
-            "containerId": "148af8e0-bf3c-4842-bda6-f12c8cb7d553",
-            "name": "deleteAdmin",
-            "url": "/admins/65031cf65be1f178ae2b4355",
-            "method": "DELETE",
+            "_id": "87bfeeb6-e7f1-4263-980b-2babe04f1cce",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "7d229951-6f17-4b63-8cc3-e1391abbd6ff",
+            "name": "Create Event",
+            "url": "/events",
+            "method": "POST",
             "sortNum": 30000,
-            "created": "2023-09-14T13:10:41.265Z",
-            "modified": "2023-09-14T15:12:04.028Z",
+            "created": "2023-09-14T21:51:16.317Z",
+            "modified": "2023-09-14T21:52:27.217Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Azure1 AI2\",\n  \"description\":\"Azure1 AI2 fundamentals\",\n  \"location\":\"Teams1\",\n  \"date\":\"2023-09-14\",\n  \"startTime\":\"14:00\",\n  \"endTime\":\"15:00\",\n  \"eventType\":\"online\",\n  \"isDisabled\":\"false\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "16df2121-3ba9-4ee6-babc-2fc93b4df29c",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "7d229951-6f17-4b63-8cc3-e1391abbd6ff",
+            "name": "getEventById",
+            "url": "/events/65022abc3b35475f9305c2c6",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-09-14T21:51:16.319Z",
+            "modified": "2023-09-14T21:52:33.395Z",
             "headers": [],
             "params": [],
             "tests": []
         },
         {
-            "_id": "4078f937-f9b6-432d-8c00-173a1f592855",
-            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
-            "containerId": "601fca7a-3844-4b4c-b0e5-dce627dad61f",
+            "_id": "16fbaaca-fb76-422e-8acc-8e4a1dd0d48a",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "fcef9c72-c2c2-4f39-b256-764d8462f2b1",
+            "name": "deleteAdmin",
+            "url": "/admins/65031cf65be1f178ae2b4355",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-09-14T21:51:16.326Z",
+            "modified": "2023-09-14T21:51:16.326Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8a4ad2d8-5be1-40e1-a8f4-dbdddbacafd6",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "5ad2fa04-56ee-4560-a848-67cd3c61fdab",
             "name": "AdminResetCredentails",
             "url": "/admins/auth/reset",
             "method": "POST",
             "sortNum": 30000,
-            "created": "2023-09-14T14:52:11.365Z",
-            "modified": "2023-09-14T15:16:08.039Z",
+            "created": "2023-09-14T21:51:16.330Z",
+            "modified": "2023-09-14T21:51:16.330Z",
             "headers": [],
             "params": [],
             "body": {
@@ -290,15 +520,62 @@
             "tests": []
         },
         {
-            "_id": "9852e2b2-2052-4ad3-a417-4171d2ac8ff8",
-            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
-            "containerId": "f4d9090a-743a-45a7-8d88-89b426fb50cc",
+            "_id": "0fecadb2-7518-475b-9591-9ff6cc1dc07e",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "db542dfe-7993-4e96-8933-044c6431e598",
+            "name": "getLibFileById",
+            "url": "/library/65044ce44adff71ff4212878",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-09-15T11:40:42.672Z",
+            "modified": "2023-09-15T12:24:54.093Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImtlbGNobyIsImVtYWlsIjoia2VsY2hvc3BlbnNld29ya3MyNDdAZ21haWwuY29tIiwidXNlclR5cGUiOiJhZG1pbiIsImlkIjoiNjUwMzIyZjdkMDgxMzBiYTljYjVhNmRkIiwiaWF0IjoxNjk0NzgwNTgxLCJleHAiOjE2OTQ4MjM3ODF9.0q0HxSndl0iyHANL5GNh4U76Skl91Q-rm3WPWc_XnTU"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e3616dd0-639b-4c23-b734-19a9811ad847",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "2406b80a-3ae3-4d04-8456-5450859fab42",
+            "name": "deleteLibraryFiles",
+            "url": "/libraryUpload/many/[\"0.jpg\",\"2.jpg\",\"3.jpg\"]",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-09-16T14:02:25.062Z",
+            "modified": "2023-09-18T12:45:12.589Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4e02191d-afcd-411a-8d56-3071be539230",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "cbaa5833-2704-448a-bbd1-390e356ff896",
+            "name": "deleteEventFile",
+            "url": "/eventUpload/0.jpg",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-09-18T13:58:43.615Z",
+            "modified": "2023-09-18T14:01:53.176Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b8d5a073-bf59-4c19-9559-733ff9adfa48",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "f94b8485-67f2-49f7-91b6-36e57d144993",
             "name": "updateUser",
             "url": "/users/64ff203e73358eb955dcc652",
             "method": "PATCH",
             "sortNum": 40000,
-            "created": "2023-09-11T14:28:27.391Z",
-            "modified": "2023-09-11T14:33:30.930Z",
+            "created": "2023-09-14T21:51:16.313Z",
+            "modified": "2023-09-14T21:51:16.313Z",
             "headers": [],
             "params": [],
             "body": {
@@ -309,81 +586,15 @@
             "tests": []
         },
         {
-            "_id": "e74b48f2-b0ab-429d-80d0-373d5a6940db",
-            "colId": "45b54c52-ffc9-4782-b6f8-00dc4c9fee4d",
-            "containerId": "148af8e0-bf3c-4842-bda6-f12c8cb7d553",
-            "name": "updateAdmin",
-            "url": "/admins/650322f7d08130ba9cb5a6dd",
-            "method": "PATCH",
-            "sortNum": 40000,
-            "created": "2023-09-14T13:10:50.581Z",
-            "modified": "2023-09-14T15:15:44.600Z",
-            "headers": [],
-            "params": [],
-            "body": {
-                "type": "json",
-                "raw": "{ \n  \"email\": \"kelchospenseworks247@gmail.com\" , \n  \"userName\": \"kelcho\" ,\n  \"password\": \"pass\"\n  \n}",
-                "form": []
-            },
-            "tests": []
-        },
-        {
-            "_id": "90365a2a-f755-4e43-a62c-7c295783b3d9",
-            "colId": "e5319c36-2f34-4d88-94f4-3a1d89c0fedb",
-            "containerId": "f9393c0f-46cf-4fea-853f-10f5f40dc0c2",
-            "name": "Create Event",
-            "url": "http://localhost:5001/events",
-            "method": "POST",
-            "sortNum": 30000,
-            "created": "2023-09-13T14:47:23.791Z",
-            "modified": "2023-09-13T22:05:56.331Z",
-            "headers": [],
-            "params": [],
-            "body": {
-                "type": "json",
-                "raw": "{\n  \"name\":\"Azure1 AI2\",\n  \"description\":\"Azure1 AI2 fundamentals\",\n  \"location\":\"Teams1\",\n  \"date\":\"2023-09-14\",\n  \"startTime\":\"14:00\",\n  \"endTime\":\"15:00\",\n  \"eventType\":\"online\",\n  \"isDisabled\":\"false\"\n}",
-                "form": []
-            },
-            "tests": []
-        },
-        {
-            "_id": "c3af815d-5652-4de6-bfe9-0b53c1f349e4",
-            "colId": "e5319c36-2f34-4d88-94f4-3a1d89c0fedb",
-            "containerId": "f9393c0f-46cf-4fea-853f-10f5f40dc0c2",
-            "name": "getEvents",
-            "url": "http://localhost:5001/events",
-            "method": "GET",
-            "sortNum": 20000,
-            "created": "2023-09-13T14:59:42.659Z",
-            "modified": "2023-09-13T22:11:17.218Z",
-            "headers": [],
-            "params": [],
-            "tests": []
-        },
-        {
-            "_id": "48fdbd69-f358-48bf-a5bf-261e891c57bc",
-            "colId": "e5319c36-2f34-4d88-94f4-3a1d89c0fedb",
-            "containerId": "f9393c0f-46cf-4fea-853f-10f5f40dc0c2",
-            "name": "getEventById",
-            "url": "http://localhost:5001/events/65022abc3b35475f9305c2c6",
-            "method": "GET",
-            "sortNum": 30000,
-            "created": "2023-09-13T15:04:31.803Z",
-            "modified": "2023-09-14T21:04:19.077Z",
-            "headers": [],
-            "params": [],
-            "tests": []
-        },
-        {
-            "_id": "97ffdc89-c2db-4dbd-b79b-d4ee4226f98e",
-            "colId": "e5319c36-2f34-4d88-94f4-3a1d89c0fedb",
-            "containerId": "f9393c0f-46cf-4fea-853f-10f5f40dc0c2",
+            "_id": "694e5faa-3bdf-4b20-8b2a-3a3c81d77789",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "7d229951-6f17-4b63-8cc3-e1391abbd6ff",
             "name": "updateEvent",
-            "url": "http://localhost:5001/events/6501cd675d1d6a27f757ba83",
+            "url": "/events/6501cd675d1d6a27f757ba83",
             "method": "PATCH",
             "sortNum": 40000,
-            "created": "2023-09-13T21:23:04.931Z",
-            "modified": "2023-09-13T21:23:04.932Z",
+            "created": "2023-09-14T21:51:16.320Z",
+            "modified": "2023-09-14T21:53:52.515Z",
             "headers": [],
             "params": [],
             "body": {
@@ -394,43 +605,174 @@
             "tests": []
         },
         {
-            "_id": "4efd1ea2-4608-4c8a-a048-8e19ff37159f",
-            "colId": "e5319c36-2f34-4d88-94f4-3a1d89c0fedb",
-            "containerId": "f9393c0f-46cf-4fea-853f-10f5f40dc0c2",
+            "_id": "84948719-37ae-4714-a71e-f0806f8e9df8",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "fcef9c72-c2c2-4f39-b256-764d8462f2b1",
+            "name": "updateAdmin",
+            "url": "/admins/650322f7d08130ba9cb5a6dd",
+            "method": "PATCH",
+            "sortNum": 40000,
+            "created": "2023-09-14T21:51:16.327Z",
+            "modified": "2023-09-14T21:51:16.327Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \n  \"email\": \"kelchospenseworks247@gmail.com\" , \n  \"userName\": \"kelcho\" ,\n  \"password\": \"pass\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "02305cbe-7662-4193-a8c2-39d7c2e57a47",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "db542dfe-7993-4e96-8933-044c6431e598",
+            "name": "getLibFiles",
+            "url": "/libraries/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-09-15T12:26:03.826Z",
+            "modified": "2023-09-15T12:27:06.745Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImtlbGNobyIsImVtYWlsIjoia2VsY2hvc3BlbnNld29ya3MyNDdAZ21haWwuY29tIiwidXNlclR5cGUiOiJhZG1pbiIsImlkIjoiNjUwMzIyZjdkMDgxMzBiYTljYjVhNmRkIiwiaWF0IjoxNjk0NzgwNTgxLCJleHAiOjE2OTQ4MjM3ODF9.0q0HxSndl0iyHANL5GNh4U76Skl91Q-rm3WPWc_XnTU"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1a1cb8d4-c81a-4e52-a14c-f26ed48b42a6",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "2406b80a-3ae3-4d04-8456-5450859fab42",
+            "name": "uploadMany[FiveMax]",
+            "url": "/libraryUpload/many",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-09-16T12:51:55.005Z",
+            "modified": "2023-09-18T12:45:17.716Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [],
+                "files": [
+                    {
+                        "name": "filename",
+                        "value": "c:\\Users\\KevinCombaGatimu\\Pictures\\cicely_cyber-realistic_c4d_blender_isometric_cute_adidas_style__f6506346-e7b8-43c3-bcc9-30ae7f933da7.png"
+                    },
+                    {
+                        "name": "filename",
+                        "value": "c:\\Users\\KevinCombaGatimu\\Pictures\\cicely_cyber-realistic_c4d_blender_isometric_cute_Boeing_style__d01616dd-6ee6-45e1-b869-8912d9bc8d9f.png"
+                    },
+                    {
+                        "name": "filename",
+                        "value": "c:\\Users\\KevinCombaGatimu\\Pictures\\cicely_cyber-realistic_c4d_blender_isometric_cute_sony_style_in_2726b43a-697e-4909-8670-50182a93686f.png"
+                    },
+                    {
+                        "name": "filename",
+                        "value": "c:\\Users\\KevinCombaGatimu\\Pictures\\cicely_cyber-realistic_c4d_blender_isometric_cute_starbucks_sty_ee3789fc-c289-4306-9b3f-6df5f9e534fb.png"
+                    },
+                    {
+                        "name": "filename",
+                        "value": "c:\\Users\\KevinCombaGatimu\\Documents\\Jitu Training Orientation.pptx"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "9142cb0d-f929-457d-911f-fcbda650526f",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "cbaa5833-2704-448a-bbd1-390e356ff896",
+            "name": "deleteEventFiles",
+            "url": "/eventUpload/many/[\"\"]",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-09-18T13:58:46.338Z",
+            "modified": "2023-09-18T14:38:29.727Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e8fbf58b-3573-41f1-a2df-f19a2a814d57",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "7d229951-6f17-4b63-8cc3-e1391abbd6ff",
             "name": "deleteEvent",
-            "url": "http://localhost:5001/events/6501cd675d1d6a27f757ba83",
+            "url": "/events/6501cd675d1d6a27f757ba83",
             "method": "DELETE",
             "sortNum": 50000,
-            "created": "2023-09-13T21:25:22.837Z",
-            "modified": "2023-09-13T21:25:22.837Z",
+            "created": "2023-09-14T21:51:16.321Z",
+            "modified": "2023-09-14T21:54:01.219Z",
             "headers": [],
             "params": [],
             "tests": []
         },
         {
-            "_id": "aaa62333-b898-4f43-8873-75533c210053",
-            "colId": "e5319c36-2f34-4d88-94f4-3a1d89c0fedb",
-            "containerId": "f9393c0f-46cf-4fea-853f-10f5f40dc0c2",
+            "_id": "993b9d5d-f9a2-417f-a0b5-b7443638eaae",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "db542dfe-7993-4e96-8933-044c6431e598",
+            "name": "deleteLibFile",
+            "url": "/library/65044ce44adff71ff4212878",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-09-15T11:40:28.747Z",
+            "modified": "2023-09-15T12:25:39.266Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImtlbGNobyIsImVtYWlsIjoia2VsY2hvc3BlbnNld29ya3MyNDdAZ21haWwuY29tIiwidXNlclR5cGUiOiJhZG1pbiIsImlkIjoiNjUwMzIyZjdkMDgxMzBiYTljYjVhNmRkIiwiaWF0IjoxNjk0NzgwNTgxLCJleHAiOjE2OTQ4MjM3ODF9.0q0HxSndl0iyHANL5GNh4U76Skl91Q-rm3WPWc_XnTU"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "65716a22-ebad-4ece-960b-3ef5b638afd4",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "7d229951-6f17-4b63-8cc3-e1391abbd6ff",
             "name": "getPastEvent",
-            "url": "http://localhost:5001/events-past",
+            "url": "/events-past",
             "method": "GET",
             "sortNum": 60000,
-            "created": "2023-09-13T21:41:58.706Z",
-            "modified": "2023-09-13T21:41:58.706Z",
+            "created": "2023-09-14T21:51:16.322Z",
+            "modified": "2023-09-14T21:54:10.933Z",
             "headers": [],
             "params": [],
             "tests": []
         },
         {
-            "_id": "9a2240b4-e09f-4437-a803-79e0c22c59de",
-            "colId": "e5319c36-2f34-4d88-94f4-3a1d89c0fedb",
-            "containerId": "f9393c0f-46cf-4fea-853f-10f5f40dc0c2",
+            "_id": "0937b700-b21c-40ee-9caf-ba173436907f",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "db542dfe-7993-4e96-8933-044c6431e598",
+            "name": "updateLibFile",
+            "url": "/library/6501cd675d1d6a27f757ba83",
+            "method": "PATCH",
+            "sortNum": 60000,
+            "created": "2023-09-15T11:40:34.805Z",
+            "modified": "2023-09-15T11:47:43.214Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Azure updated\",\n  \"description\":\"Azure fundamentals updated\",\n  \"tags\":[\"react\",\"node\",\"express\"],\n  \"fileURL\":\"https//fileurl.com\",\n  \"uploadedBy\":\"UserNameUpdated\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1923b803-7f0e-4ea9-a2ed-153b54d538b5",
+            "colId": "0c7a5740-6efa-47fa-9cdb-c0266f2975ca",
+            "containerId": "7d229951-6f17-4b63-8cc3-e1391abbd6ff",
             "name": "getFutureEvents",
-            "url": "http://localhost:5001/events-future",
+            "url": "/events-future",
             "method": "GET",
             "sortNum": 70000,
-            "created": "2023-09-13T21:47:54.693Z",
-            "modified": "2023-09-13T21:47:54.693Z",
+            "created": "2023-09-14T21:51:16.323Z",
+            "modified": "2023-09-14T21:54:19.413Z",
             "headers": [],
             "params": [],
             "tests": []

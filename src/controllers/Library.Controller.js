@@ -4,6 +4,7 @@ import { handleMissingParamsError, handleValidationError, handleLibraryExists, h
 
 
 export const createLibrary = async (req, res) => {
+
     const handler = async (req, res) => {
         const { error } = libraryRegisterValidator(req.body);
         if (error) {

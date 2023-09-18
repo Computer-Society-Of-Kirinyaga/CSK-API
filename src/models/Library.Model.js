@@ -17,7 +17,7 @@ const librarySchema = new mongoose.Schema(
             trim: true,
         },
         fileURL: {
-            type: String,
+            type: [Object],
             trim: true,
             required: true
         },

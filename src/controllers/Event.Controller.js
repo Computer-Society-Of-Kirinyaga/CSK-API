@@ -10,8 +10,8 @@ export const createEvent = async (req, res) => {
             handleValidationError(error, res);
             return;
         }
-        const { name, description, location, date, startTime, endTime, eventType, isDisabled } = req.body;
-        if (!name && !description && !location && !date && !startTime && !endTime && !eventType && !isDisabled) {
+        const { name, description, posterURL, location, date, startTime, endTime, eventType, isDisabled } = req.body;
+        if (!name && !description && !posterURL && !location && !date && !startTime && !endTime && !eventType && !isDisabled) {
             handleValidationError({ details: [{ message: "At least one property must be updated" }] }, res);
             return;
         }
@@ -20,7 +20,7 @@ export const createEvent = async (req, res) => {
             handleEventExists(res);
             return;
         }
-        const event = await EventModel.create({ name, description, location, date, startTime, endTime, eventType, isDisabled });
+        const event = await EventModel.create({ name, description, posterURL, location, date, startTime, endTime, eventType, isDisabled });
         res.status(201).json(req.body);
     };
     tryCatchWrapper(handler, req, res);

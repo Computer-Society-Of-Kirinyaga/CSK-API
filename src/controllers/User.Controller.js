@@ -2,7 +2,7 @@ import bcrypt from 'bcrypt';
 import cryptoRandomString from 'crypto-random-string';
 import jwt from 'jsonwebtoken';
 import { sendEmail } from '../helperFunctions/HelperFunctions.js';
-import { userRegisterValidator, userResetValidator } from '../validators/User.Validator.js';
+import { userRegisterValidator, userResetValidator, userLoginValidator } from '../validators/User.Validator.js';
 import UserModel from '../models/User.Model.js';
 import { handleValidationError, handleMissingParamsError, handleUserExists, handleUserNotFound, tryCatchWrapper, handleWrongCredentials, handleInvalidUser } from '../factory/Factory.js';
 
@@ -15,12 +15,14 @@ export const createUser = async (req, res) => {
             return;
         }
         const { fullName, email, userName, password, phoneNo, course, yearOfStudy, techStack } = req.body;
+
         const existingUser = await UserModel.findOne({ $or: [{ userName: userName }, { email: email }] });
         if (existingUser) {
             handleUserExists(res);
             return;
         }
-        if (await UserModel.create({ fullName, email, userName, password, phoneNo, course, yearOfStudy, techStack, userType: 'user' })) {
+        let hashedPassword = bcrypt.hashSync(password, bcrypt.genSaltSync(10));
+        if (await UserModel.create({ fullName, email, userName, password: hashedPassword, phoneNo, course, yearOfStudy, techStack, userType: 'user' })) {
             res.status(201).json(req.body);
         }
     };
