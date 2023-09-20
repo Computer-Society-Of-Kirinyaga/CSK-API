@@ -1,10 +1,14 @@
-import { libraryRegisterValidator } from '../validators/Library.Validator.js';
-import LibraryModel from '../models/Library.Model.js';
-import { handleMissingParamsError, handleValidationError, handleLibraryExists, handleLibraryNotFound, tryCatchWrapper } from '../factory/Factory.js';
-
+import { libraryRegisterValidator } from "../validators/Library.Validator.js";
+import LibraryModel from "../models/Library.Model.js";
+import {
+    handleMissingParamsError,
+    handleValidationError,
+    handleLibraryExists,
+    handleLibraryNotFound,
+    tryCatchWrapper,
+} from "../factory/Factory.js";
 
 export const createLibrary = async (req, res) => {
-
     const handler = async (req, res) => {
         const { error } = libraryRegisterValidator(req.body);
         if (error) {
@@ -12,12 +16,21 @@ export const createLibrary = async (req, res) => {
             return;
         }
         const { name, description, tags, fileURL, uploadedBy } = req.body;
-        const existingEvent = await LibraryModel.findOne({ name: name, uploadedBy: uploadedBy });
+        const existingEvent = await LibraryModel.findOne({
+            name: name,
+            uploadedBy: uploadedBy,
+        });
         if (existingEvent) {
             handleLibraryExists(res);
             return;
         }
-        const FileRes = await LibraryModel.create({ name, description, tags, fileURL, uploadedBy });
+        const FileRes = await LibraryModel.create({
+            name,
+            description,
+            tags,
+            fileURL,
+            uploadedBy,
+        });
         res.status(201).json(FileRes);
     };
     tryCatchWrapper(handler, req, res);
@@ -25,7 +38,9 @@ export const createLibrary = async (req, res) => {
 export const getLibraries = async (req, res) => {
     const handler = async (req, res) => {
         const libraryFileResponse = await LibraryModel.find();
-        libraryFileResponse.length > 0 ? res.status(200).json(libraryFileResponse) : handleLibraryNotFound(res);
+        libraryFileResponse.length > 0
+            ? res.status(200).json(libraryFileResponse)
+            : handleLibraryNotFound(res);
     };
     tryCatchWrapper(handler, req, res);
 };
@@ -37,7 +52,9 @@ export const getLibrary = async (req, res) => {
             return;
         }
         const libraryFileResponse = await LibraryModel.findById(id);
-        libraryFileResponse ? res.status(200).json(libraryFileResponse) : handleLibraryNotFound(res);
+        libraryFileResponse
+            ? res.status(200).json(libraryFileResponse)
+            : handleLibraryNotFound(res);
     };
 
     tryCatchWrapper(handler, req, res);
@@ -49,9 +66,20 @@ export const updateLibrary = async (req, res) => {
             handleMissingParamsError(res);
             return;
         }
-        const { name, description, tags, fileURL, uploadedBy, isDisabled } = req.body;
-        if (!name && !description && !tags && !fileURL && !uploadedBy && !isDisabled) {
-            handleValidationError({ details: [{ message: "At least one property must be updated" }] }, res);
+        const { name, description, tags, fileURL, uploadedBy, isDisabled } =
+            req.body;
+        if (
+            !name &&
+            !description &&
+            !tags &&
+            !fileURL &&
+            !uploadedBy &&
+            !isDisabled
+        ) {
+            handleValidationError(
+                { details: [{ message: "At least one property must be updated" }] },
+                res
+            );
             return;
         }
         const libraryFileResponse = await LibraryModel.findById(id);
@@ -66,7 +94,7 @@ export const updateLibrary = async (req, res) => {
         fileURL && (libraryFileResponse.fileURL = fileURL);
         uploadedBy && (libraryFileResponse.uploadedBy = uploadedBy);
         endTime && (libraryFileResponse.endTime = endTime);
-        isDisabled && (libraryFileResponse.isDisabled = isDisabled)
+        isDisabled && (libraryFileResponse.isDisabled = isDisabled);
         await libraryFileResponse.save();
         res.status(200).json(libraryFileResponse);
     };
@@ -80,7 +108,11 @@ export const deleteLibrary = async (req, res) => {
             return;
         }
         const libraryFileResponse = await LibraryModel.findByIdAndDelete(id);
-        libraryFileResponse ? res.status(200).json({ message: "libraryFileResponse deleted successfully" }) : handleLibraryNotFound(res);
+        libraryFileResponse
+            ? res
+                .status(200)
+                .json({ message: "libraryFileResponse deleted successfully" })
+            : handleLibraryNotFound(res);
     };
     tryCatchWrapper(handler, req, res);
 };
