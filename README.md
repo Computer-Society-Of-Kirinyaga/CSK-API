@@ -11,7 +11,7 @@
   - models - db models
   - routes - routes
   - validators - use Joi to validate all data that is going into the DB.
-  - swaggerUI -document our API.
+  - swaggerUI - have the thunder-collection_CSKAPI.json or thunder-collection_CSKAPI-Deployed (deployed version) file to import to your thunderClient extension to test the API.
 
 - index.js
 - .env

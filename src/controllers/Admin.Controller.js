@@ -155,7 +155,7 @@ export const loginAdmin = async (req, res) => {
               id: user._id,
             },
             process.env.JWT_SECRET,
-            { expiresIn: "12h" }
+            { expiresIn: "24h" }
           )}`;
           // return all user details except password
           const { password, ...userWithoutPassword } = user._doc;
