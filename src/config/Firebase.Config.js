@@ -1,15 +1,13 @@
-import * as dotenv from 'dotenv';
+import * as dotenv from "dotenv";
 dotenv.config();
 export default {
-    firebaseConfig: {
-        apiKey: "AIzaSyDkTb6ICJv0jlKqdDT8ZZinepWAz_i1M24",
-        authDomain: "cskapi-a97c8.firebaseapp.com",
-        projectId: "cskapi-a97c8",
-        storageBucket: "cskapi-a97c8.appspot.com",
-        messagingSenderId: "298685204235",
-        appId: "1:298685204235:web:538f2585d053b87b5fc40e",
-        storageBucket: 'gs://cskapi-a97c8.appspot.com',
-
-    }
+  firebaseConfig: {
+    apiKey: process.env.API_KEY,
+    authDomain: process.env.AUTH_DOMAIN,
+    projectId: process.env.PROJECT_ID,
+    storageBucket: process.env.STORAGE_BUCKET,
+    messagingSenderId: process.env.MESSAGING_SENDER_ID,
+    appId: process.env.APP_ID,
+    storageBucket: process.env.STORAGE_BUCKET_URL,
+  },
 };
-
