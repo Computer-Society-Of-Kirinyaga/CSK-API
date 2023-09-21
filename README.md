@@ -319,12 +319,25 @@ This route deletes multiple files from Firebase Storage.
 ## Dotenv Values
 
 - MONGO_URL=mongodb://127.0.0.1:27017/CSKUniversityDb
-- JWT_SECRET=universitySecret
+- JWT_SECRET=enter_your_secret_here
 - PORT=5009
-- EMAIL_SENDER =senderEmail.gmail.com
-- EMAIL_PASSWORD =password
 
-> \*\*For email functionality to work with a gmail visit [this link](https://myaccount.google.com/apppasswords?pli=1&rapt=AEjHL4MAyZMTo4Iu6mJAeW1ZhLXbUgJpVRUsRnEsDAM4Nfk5lQHlWRP-1ovJgOhbcFqQ0Kx-a_oAtdUYxjFpXR3Lgiu6_2E5sw) and create an app by providing an app name and copy the generated password copy it and past it on EMAIL_PASSWORD [env]. [More info about nodemailer visit here](https://nodemailer.com/usage/using-gmail/)\*\*
+  **Nodemailer config on your gmail account**
+
+- EMAIL_SENDER =enter_senderEmail.gmail.com_here
+- EMAIL_PASSWORD =enter_senderEmailPassword_here
+
+  **Firebase config**
+
+- API_KEY=
+- AUTH_DOMAIN=
+- PROJECT_ID=
+- STORAGE_BUCKET=
+- MESSAGING_SENDER_ID=
+- APP_ID=
+- STORAGE_BUCKET_URL=
+
+> For email functionality to work with a gmail visit [this link](https://myaccount.google.com/apppasswords?pli=1&rapt=AEjHL4MAyZMTo4Iu6mJAeW1ZhLXbUgJpVRUsRnEsDAM4Nfk5lQHlWRP-1ovJgOhbcFqQ0Kx-a_oAtdUYxjFpXR3Lgiu6_2E5sw) and create an app by providing an app name and copy the generated password copy it and past it on EMAIL_PASSWORD [env]. [More info about nodemailer visit here](https://nodemailer.com/usage/using-gmail/)
 
 ## Gmail configuration
 
