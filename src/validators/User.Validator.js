@@ -11,6 +11,11 @@ export const userRegisterValidator = (user) => {
     course: Joi.string().required(),
     yearOfStudy: Joi.number().integer().required(),
     techStack: Joi.array().items(Joi.string()).required(),
+    socialMedia: Joi.object({
+        LinkedIn: Joi.string().trim(),
+        Twitter: Joi.string().trim(),
+        Github: Joi.string().trim(),
+    }),
   });
   return userValidationSchema.validate(user);
 };

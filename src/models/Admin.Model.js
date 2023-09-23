@@ -49,6 +49,20 @@ const adminSchema = new mongoose.Schema(
       enum: ["admin", "superAdmin", "disabledUser"],
       default: "admin",
     },
+    socialMedia: {
+      LinkedIn: {
+        type: String,
+        trim: true,
+      },
+      Twitter: {
+        type: String,
+        trim: true,
+      },
+      Github: {
+        type: String,
+        trim: true,
+      },
+    },
   },
   { timestamps: true }
 );

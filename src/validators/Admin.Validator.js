@@ -11,6 +11,11 @@ export const adminRegisterValidator = (admin) => {
     yearOfStudy: Joi.string().min(1).max(30).required(),
     phoneNo: Joi.string().required(),
     techStack: Joi.array().items(Joi.string()).required(),
+    socialMedia: Joi.object({
+      LinkedIn: Joi.string().trim(),
+      Twitter: Joi.string().trim(),
+      Github: Joi.string().trim(),
+  }),
   });
   return adminValidationSchema.validate(admin);
 };
