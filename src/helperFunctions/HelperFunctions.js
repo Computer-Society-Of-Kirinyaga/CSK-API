@@ -16,7 +16,7 @@ export const capitalizeWords = (str) => {
 };
 
 // function to send emails
-export const sendEmail = async (email, subject, message) => {
+export const sendEmail = async (email, subject, message, googleCalendarLink) => {
   // for this to work go to this link and create an app by providing an app name and copy the generated password => https://myaccount.google.com/apppasswords?pli=1&rapt=AEjHL4MAyZMTo4Iu6mJAeW1ZhLXbUgJpVRUsRnEsDAM4Nfk5lQHlWRP-1ovJgOhbcFqQ0Kx-a_oAtdUYxjFpXR3Lgiu6_2E5sw
   // more info here => https://nodemailer.com/usage/using-gmail/
   try {
@@ -34,7 +34,8 @@ export const sendEmail = async (email, subject, message) => {
       to: email,
       subject: `🙏${subject}🙏`,
       text: message,
-      html: `<h3>${message}</h3>`,
+      html: `<h3>${message},${googleCalendarLink}</h3>`,
+
     };
     const mailRes = await transporter.sendMail(mailOptions);
     let mailResponse = "";
@@ -50,3 +51,29 @@ export const sendEmail = async (email, subject, message) => {
     console.log(error);
   }
 };
+export const sendRegistrationEmail = async (userEmail, eventName, googleCalendarLink) => {
+  try {
+    const subject = `Registration Confirmation for ${eventName} Event`;
+    const message = `Thank you for registering for the event "${eventName}". We look forward to seeing you there! Add to caledar ${googleCalendarLink}`;
+    // const googleLink = `Add to google caledar ${googleCalendarLink}`;
+    const emailResponse = await sendEmail(userEmail, subject, message, googleCalendarLink);
+
+    return emailResponse;
+  } catch (error) {
+    throw error;
+  }
+};
+
+// Function to generate the .ics file content
+export const generateGoogleLink = (event) => {
+  const encodedSummary = encodeURIComponent(event.name);
+  const encodedDescription = encodeURIComponent(event.description);
+  const encodedLocation = encodeURIComponent(event.location);
+  const encodedStart = event.startTime.toISOString().replace(/[-:.]/g, "").slice(0, -1);
+  const encodedEnd = event.endTime.toISOString().replace(/[-:.]/g, "").slice(0, -1);
+
+  // Generate the Google Calendar link
+  const googleCalendarLink = `https://www.google.com/calendar/event?action=TEMPLATE&text=${encodedSummary}&details=${encodedDescription}&location=${encodedLocation}&dates=${encodedStart}/${encodedEnd}`
+  return googleCalendarLink;
+
+}
