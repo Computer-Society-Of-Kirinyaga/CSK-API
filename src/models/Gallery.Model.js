@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const librarySchema = new mongoose.Schema(
+const gallerySchema = new mongoose.Schema(
   {
     name: {
       type: String,
@@ -26,6 +26,6 @@ const librarySchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const LibraryModel = mongoose.model("Library", librarySchema);
+const GalleryModel = mongoose.model("Gallery", gallerySchema);
 
-export default LibraryModel;
+export default GalleryModel;

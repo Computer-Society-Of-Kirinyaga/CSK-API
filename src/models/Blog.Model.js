@@ -17,7 +17,7 @@ const blogSchema = new mongoose.Schema(
       required: true,
     },
     bannerURL: {
-      type: [Object],
+      type: String,
       trim: true,
       required: true,
     },
@@ -34,6 +34,6 @@ const blogSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const blogModel = mongoose.model("Library", blogSchema);
+const BlogModel = mongoose.model("Blog", blogSchema);
 
-export default blogModel;
+export default BlogModel;
