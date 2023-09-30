@@ -12,7 +12,7 @@ export const userRegisterValidator = (user) => {
     yearOfStudy: Joi.number().integer().required(),
     techStack: Joi.array().items(Joi.string()).required(),
   });
-  return userValidationSchema.validate(user);
+  return userValidationSchema.validate(user, { abortEarly: false });
 };
 
 export const userLoginValidator = (user) => {

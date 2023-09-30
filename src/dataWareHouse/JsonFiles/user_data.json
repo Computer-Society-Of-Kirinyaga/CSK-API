@@ -1,0 +1,1302 @@
+[
+  {
+    "fullName": "Shawn Vallerine",
+    "email": "svallerine0@ycombinator.com",
+    "userName": "svallerine0",
+    "password": "pass",
+    "phoneNo": "+261 279 642 2300",
+    "course": "Bachelor of Science in Cybersecurity",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Cybersecurity",
+      "Web Development with ASP.NET"
+    ]
+  },
+  {
+    "fullName": "Nikolaus Trewman",
+    "email": "ntrewman1@g.co",
+    "userName": "ntrewman1",
+    "password": "pass",
+    "phoneNo": "+86 234 617 2212",
+    "course": "Bachelor of Mobile App Development",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Mobile Development with Flutter",
+      "Web Development with LAMP Stack"
+    ]
+  },
+  {
+    "fullName": "Cameron Longo",
+    "email": "clongo2@360.cn",
+    "userName": "clongo2",
+    "password": "pass",
+    "phoneNo": "+371 184 393 7919",
+    "course": "Bachelor of Artificial Intelligence (AI)",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Cybersecurity",
+      "User Interface and User Experience design"
+    ]
+  },
+  {
+    "fullName": "Bent McShea",
+    "email": "bmcshea3@tamu.edu",
+    "userName": "bmcshea3",
+    "password": "pass",
+    "phoneNo": "+1 208 896 8889",
+    "course": "Bachelor of Information Technology Management",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Web Development with MERN Stack",
+      "Web Development with LAMP Stack"
+    ]
+  },
+  {
+    "fullName": "Delbert Tutchings",
+    "email": "dtutchings4@chron.com",
+    "userName": "dtutchings4",
+    "password": "pass",
+    "phoneNo": "+371 657 221 2705",
+    "course": "Bachelor of Cloud Computing",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Web Development with LAMP Stack",
+      "Web Development with Ruby on Rails"
+    ]
+  },
+  {
+    "fullName": "Giuseppe Aynscombe",
+    "email": "gaynscombe5@reuters.com",
+    "userName": "gaynscombe5",
+    "password": "pass",
+    "phoneNo": "+86 533 863 5361",
+    "course": "Bachelor of Web Development",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Web Development with MERN Stack",
+      "Web Development with Java and Spring"
+    ]
+  },
+  {
+    "fullName": "Nixie Playle",
+    "email": "nplayle6@mlb.com",
+    "userName": "nplayle6",
+    "password": "pass",
+    "phoneNo": "+63 973 941 6020",
+    "course": "Bachelor of Science in Cybersecurity",
+    "yearOfStudy": 4,
+    "techStack": [
+      "User Interface and User Experience design",
+      "Mobile Development with Flutter"
+    ]
+  },
+  {
+    "fullName": "Adrien Geeves",
+    "email": "ageeves7@pen.io",
+    "userName": "ageeves7",
+    "password": "pass",
+    "phoneNo": "+420 438 236 4314",
+    "course": "Bachelor of Cloud Computing",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Web Development with LAMP Stack",
+      "Web Development with ASP.NET"
+    ]
+  },
+  {
+    "fullName": "Terrye Shaxby",
+    "email": "tshaxby8@washington.edu",
+    "userName": "tshaxby8",
+    "password": "pass",
+    "phoneNo": "+1 212 438 1695",
+    "course": "Bachelor of Information Technology Management",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Web Development with PHP and Laravel",
+      "Web Development with LAMP Stack"
+    ]
+  },
+  {
+    "fullName": "Iago Sleaford",
+    "email": "isleaford9@gravatar.com",
+    "userName": "isleaford9",
+    "password": "pass",
+    "phoneNo": "+33 605 175 0032",
+    "course": "Bachelor of Information Systems (BIS)",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Web Development with MERN Stack",
+      "Web Development with Ruby on Rails"
+    ]
+  },
+  {
+    "fullName": "Amalee Kench",
+    "email": "akencha@cam.ac.uk",
+    "userName": "akencha",
+    "password": "pass",
+    "phoneNo": "+86 133 998 9782",
+    "course": "Bachelor of Science in Computer Science",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Web Development with MERN Stack",
+      "Mobile Development with React Native"
+    ]
+  },
+  {
+    "fullName": "Willow Sandaver",
+    "email": "wsandaverb@desdev.cn",
+    "userName": "wsandaverb",
+    "password": "pass",
+    "phoneNo": "+7 558 427 3581",
+    "course": "Bachelor of Computer Engineering",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Web Development with Java and Spring",
+      "Microsoft Power Platform"
+    ]
+  },
+  {
+    "fullName": "Tisha Jordeson",
+    "email": "tjordesonc@zdnet.com",
+    "userName": "tjordesonc",
+    "password": "pass",
+    "phoneNo": "+62 508 918 5869",
+    "course": "Bachelor of Information Technology Management",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Mobile Development with Flutter",
+      "Web Development with Java and Spring"
+    ]
+  },
+  {
+    "fullName": "Sissy Lange",
+    "email": "slanged@cnbc.com",
+    "userName": "slanged",
+    "password": "pass",
+    "phoneNo": "+86 350 701 9995",
+    "course": "Bachelor of Cloud Computing",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Web Development with Ruby on Rails",
+      "Cloud Computing with Microsoft Azure"
+    ]
+  },
+  {
+    "fullName": "Dmitri Succamore",
+    "email": "dsuccamoree@yelp.com",
+    "userName": "dsuccamoree",
+    "password": "pass",
+    "phoneNo": "+972 537 587 7923",
+    "course": "Bachelor of Web Development",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Cloud Computing with Microsoft Azure",
+      "Cybersecurity"
+    ]
+  },
+  {
+    "fullName": "Solly Oke",
+    "email": "sokef@answers.com",
+    "userName": "sokef",
+    "password": "pass",
+    "phoneNo": "+977 214 134 6200",
+    "course": "Bachelor of Network Engineering",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Machine Learning and AI with Python",
+      "Web Development with LAMP Stack"
+    ]
+  },
+  {
+    "fullName": "Edin Carrigan",
+    "email": "ecarrigang@dailymail.co.uk",
+    "userName": "ecarrigang",
+    "password": "pass",
+    "phoneNo": "+380 758 374 3485",
+    "course": "Bachelor of Computer Engineering",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Mobile Development with React Native",
+      "Cloud Computing with Microsoft Azure"
+    ]
+  },
+  {
+    "fullName": "Elsworth Plampin",
+    "email": "eplampinh@shareasale.com",
+    "userName": "eplampinh",
+    "password": "pass",
+    "phoneNo": "+501 576 832 4255",
+    "course": "Bachelor of Data Science",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Web Development with MERN Stack",
+      "Web Development with ASP.NET"
+    ]
+  },
+  {
+    "fullName": "Jaquith Greengrass",
+    "email": "jgreengrassi@macromedia.com",
+    "userName": "jgreengrassi",
+    "password": "pass",
+    "phoneNo": "+86 153 975 4530",
+    "course": "Bachelor of Artificial Intelligence (AI)",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Web Development with MERN Stack",
+      "Web Development with ASP.NET"
+    ]
+  },
+  {
+    "fullName": "Michael Cubbit",
+    "email": "mcubbitj@com.com",
+    "userName": "mcubbitj",
+    "password": "pass",
+    "phoneNo": "+212 698 268 6969",
+    "course": "Bachelor of Artificial Intelligence (AI)",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Mobile Development with React Native",
+      "Web Development with Ruby on Rails"
+    ]
+  },
+  {
+    "fullName": "Clementine Filippazzo",
+    "email": "cfilippazzok@loc.gov",
+    "userName": "cfilippazzok",
+    "password": "pass",
+    "phoneNo": "+86 614 712 8068",
+    "course": "Bachelor of Software Engineering",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Web Development with ASP.NET",
+      "User Interface and User Experience design"
+    ]
+  },
+  {
+    "fullName": "Wildon Bernlin",
+    "email": "wbernlinl@businesswire.com",
+    "userName": "wbernlinl",
+    "password": "pass",
+    "phoneNo": "+86 106 217 1386",
+    "course": "Bachelor of Network Engineering",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Web Development with ASP.NET",
+      "Web Development with LAMP Stack"
+    ]
+  },
+  {
+    "fullName": "Yetta Iacomini",
+    "email": "yiacominim@bloomberg.com",
+    "userName": "yiacominim",
+    "password": "pass",
+    "phoneNo": "+63 249 684 4976",
+    "course": "Bachelor of Information Systems (BIS)",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Web Development with Python and Django",
+      "Cybersecurity"
+    ]
+  },
+  {
+    "fullName": "Margi Pavier",
+    "email": "mpaviern@studiopress.com",
+    "userName": "mpaviern",
+    "password": "pass",
+    "phoneNo": "+55 727 396 5482",
+    "course": "Bachelor of Information Technology Management",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Mobile Development with React Native",
+      "User Interface and User Experience design"
+    ]
+  },
+  {
+    "fullName": "Chan Florey",
+    "email": "cfloreyo@mediafire.com",
+    "userName": "cfloreyo",
+    "password": "pass",
+    "phoneNo": "+351 846 729 0811",
+    "course": "Bachelor of Computer Engineering",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Web Development with MEAN Stack",
+      "Mobile Development with React Native"
+    ]
+  },
+  {
+    "fullName": "Ali Dutnell",
+    "email": "adutnellp@alibaba.com",
+    "userName": "adutnellp",
+    "password": "pass",
+    "phoneNo": "+7 411 955 4705",
+    "course": "Bachelor of Science in Cybersecurity",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Web Development with MEAN Stack",
+      "Web Development with LAMP Stack"
+    ]
+  },
+  {
+    "fullName": "Chane Skillings",
+    "email": "cskillingsq@i2i.jp",
+    "userName": "cskillingsq",
+    "password": "pass",
+    "phoneNo": "+263 321 342 5418",
+    "course": "Bachelor of Artificial Intelligence (AI)",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Web Development with MERN Stack",
+      "Mobile Development with React Native"
+    ]
+  },
+  {
+    "fullName": "Haleigh Wherry",
+    "email": "hwherryr@ebay.com",
+    "userName": "hwherryr",
+    "password": "pass",
+    "phoneNo": "+63 598 680 2873",
+    "course": "Bachelor of Mobile App Development",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Mobile Development with Flutter",
+      "Web Development with MERN Stack"
+    ]
+  },
+  {
+    "fullName": "Josefina Nuzzti",
+    "email": "jnuzztis@delicious.com",
+    "userName": "jnuzztis",
+    "password": "pass",
+    "phoneNo": "+48 277 308 5282",
+    "course": "Bachelor of Computer Engineering",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Web Development with ASP.NET",
+      "Web Development with MERN Stack"
+    ]
+  },
+  {
+    "fullName": "Bettine Abbs",
+    "email": "babbst@usgs.gov",
+    "userName": "babbst",
+    "password": "pass",
+    "phoneNo": "+30 215 961 8731",
+    "course": "Bachelor of Computer Engineering",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Cloud Computing with Microsoft Azure",
+      "Web Development with MERN Stack"
+    ]
+  },
+  {
+    "fullName": "Audrye Maskell",
+    "email": "amaskellu@naver.com",
+    "userName": "amaskellu",
+    "password": "pass",
+    "phoneNo": "+63 291 336 0939",
+    "course": "Bachelor of Web Development",
+    "yearOfStudy": 2,
+    "techStack": [
+      "User Interface and User Experience design",
+      "Web Development with LAMP Stack"
+    ]
+  },
+  {
+    "fullName": "Ivie Lazell",
+    "email": "ilazellv@lycos.com",
+    "userName": "ilazellv",
+    "password": "pass",
+    "phoneNo": "+33 109 349 7392",
+    "course": "Bachelor of Web Development",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Mobile Development with Flutter",
+      "Cloud Computing with Microsoft Azure"
+    ]
+  },
+  {
+    "fullName": "Jemimah Trimmell",
+    "email": "jtrimmellw@istockphoto.com",
+    "userName": "jtrimmellw",
+    "password": "pass",
+    "phoneNo": "+84 264 252 5821",
+    "course": "Bachelor of Science in Computer Science",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Cloud Computing with Microsoft Azure",
+      "Machine Learning and AI with Python"
+    ]
+  },
+  {
+    "fullName": "Lannie McCarrick",
+    "email": "lmccarrickx@statcounter.com",
+    "userName": "lmccarrickx",
+    "password": "pass",
+    "phoneNo": "+20 111 235 3432",
+    "course": "Bachelor of Cloud Computing",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Web Development with Ruby on Rails",
+      "Mobile Development with React Native"
+    ]
+  },
+  {
+    "fullName": "Sapphira MacVaugh",
+    "email": "smacvaughy@techcrunch.com",
+    "userName": "smacvaughy",
+    "password": "pass",
+    "phoneNo": "+95 311 650 6098",
+    "course": "Bachelor of Mobile App Development",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Cloud Computing with Microsoft Azure",
+      "Cybersecurity"
+    ]
+  },
+  {
+    "fullName": "Roy Drain",
+    "email": "rdrainz@usnews.com",
+    "userName": "rdrainz",
+    "password": "pass",
+    "phoneNo": "+49 590 123 1748",
+    "course": "Bachelor of Science in Computer Science",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Web Development with ASP.NET",
+      "Web Development with Ruby on Rails"
+    ]
+  },
+  {
+    "fullName": "Iolande Hembery",
+    "email": "ihembery10@shareasale.com",
+    "userName": "ihembery10",
+    "password": "pass",
+    "phoneNo": "+380 293 748 0468",
+    "course": "Bachelor of Game Design and Development",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Mobile Development with React Native",
+      "Web Development with Ruby on Rails"
+    ]
+  },
+  {
+    "fullName": "Burt Lohde",
+    "email": "blohde11@e-recht24.de",
+    "userName": "blohde11",
+    "password": "pass",
+    "phoneNo": "+81 789 564 2333",
+    "course": "Bachelor of Mobile App Development",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Web Development with MEAN Stack",
+      "Machine Learning and AI with Python"
+    ]
+  },
+  {
+    "fullName": "Kassandra Walicki",
+    "email": "kwalicki12@tinyurl.com",
+    "userName": "kwalicki12",
+    "password": "pass",
+    "phoneNo": "+86 851 597 6137",
+    "course": "Bachelor of Game Design and Development",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Web Development with MEAN Stack",
+      "Machine Learning and AI with Python"
+    ]
+  },
+  {
+    "fullName": "Vickie Hutcheon",
+    "email": "vhutcheon13@bigcartel.com",
+    "userName": "vhutcheon13",
+    "password": "pass",
+    "phoneNo": "+57 271 233 5865",
+    "course": "Bachelor of Information Technology Management",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Web Development with MERN Stack",
+      "User Interface and User Experience design"
+    ]
+  },
+  {
+    "fullName": "Constantin Dand",
+    "email": "cdand14@gmpg.org",
+    "userName": "cdand14",
+    "password": "pass",
+    "phoneNo": "+84 622 941 9315",
+    "course": "Bachelor of Network Engineering",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Web Development with Ruby on Rails",
+      "Mobile Development with Flutter"
+    ]
+  },
+  {
+    "fullName": "Conway Dilleston",
+    "email": "cdilleston15@hibu.com",
+    "userName": "cdilleston15",
+    "password": "pass",
+    "phoneNo": "+57 957 400 3290",
+    "course": "Bachelor of Data Science",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Cybersecurity",
+      "Web Development with LAMP Stack"
+    ]
+  },
+  {
+    "fullName": "Marj Franseco",
+    "email": "mfranseco16@telegraph.co.uk",
+    "userName": "mfranseco16",
+    "password": "pass",
+    "phoneNo": "+33 699 882 2590",
+    "course": "Bachelor of Information Technology (BIT)",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Cybersecurity",
+      "Web Development with PHP and Laravel"
+    ]
+  },
+  {
+    "fullName": "Chuck Bront",
+    "email": "cbront17@unicef.org",
+    "userName": "cbront17",
+    "password": "pass",
+    "phoneNo": "+1 491 332 0276",
+    "course": "Bachelor of Computer Engineering",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Cloud Computing with Microsoft Azure",
+      "Web Development with PHP and Laravel"
+    ]
+  },
+  {
+    "fullName": "Beltran Schiell",
+    "email": "bschiell18@nymag.com",
+    "userName": "bschiell18",
+    "password": "pass",
+    "phoneNo": "+1 212 418 4462",
+    "course": "Bachelor of Mobile App Development",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Mobile Development with React Native",
+      "Mobile Development with Flutter"
+    ]
+  },
+  {
+    "fullName": "Artair Hawkridge",
+    "email": "ahawkridge19@cbc.ca",
+    "userName": "ahawkridge19",
+    "password": "pass",
+    "phoneNo": "+62 912 248 5552",
+    "course": "Bachelor of Information Technology Management",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Web Development with LAMP Stack",
+      "Web Development with MERN Stack"
+    ]
+  },
+  {
+    "fullName": "Garland Innwood",
+    "email": "ginnwood1a@ow.ly",
+    "userName": "ginnwood1a",
+    "password": "pass",
+    "phoneNo": "+1 895 665 7852",
+    "course": "Bachelor of Information Technology (BIT)",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Web Development with ASP.NET",
+      "Web Development with Python and Django"
+    ]
+  },
+  {
+    "fullName": "Derward Roblin",
+    "email": "droblin1b@tinypic.com",
+    "userName": "droblin1b",
+    "password": "pass",
+    "phoneNo": "+1 512 329 0450",
+    "course": "Bachelor of Web Development",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Microsoft Power Platform",
+      "Machine Learning and AI with Python"
+    ]
+  },
+  {
+    "fullName": "Debora Belliard",
+    "email": "dbelliard1c@salon.com",
+    "userName": "dbelliard1c",
+    "password": "pass",
+    "phoneNo": "+51 819 402 0232",
+    "course": "Bachelor of Computer Engineering",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Cybersecurity",
+      "Web Development with Ruby on Rails"
+    ]
+  },
+  {
+    "fullName": "Krishnah Covey",
+    "email": "kcovey1d@loc.gov",
+    "userName": "kcovey1d",
+    "password": "pass",
+    "phoneNo": "+7 480 764 6711",
+    "course": "Bachelor of Information Technology (BIT)",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Cybersecurity",
+      "Mobile Development with Flutter"
+    ]
+  },
+  {
+    "fullName": "Yale Kiera",
+    "email": "ykiera1e@cbc.ca",
+    "userName": "ykiera1e",
+    "password": "pass",
+    "phoneNo": "+351 476 175 2616",
+    "course": "Bachelor of Information Technology Management",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Cybersecurity",
+      "Microsoft Power Platform"
+    ]
+  },
+  {
+    "fullName": "Loralie Kettlesting",
+    "email": "lkettlesting1f@merriam-webster.com",
+    "userName": "lkettlesting1f",
+    "password": "pass",
+    "phoneNo": "+1 252 237 4183",
+    "course": "Bachelor of Mobile App Development",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Web Development with MEAN Stack",
+      "Cloud Computing with Microsoft Azure"
+    ]
+  },
+  {
+    "fullName": "Dewie Wardall",
+    "email": "dwardall1g@com.com",
+    "userName": "dwardall1g",
+    "password": "pass",
+    "phoneNo": "+56 685 664 6653",
+    "course": "Bachelor of Science in Cybersecurity",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Web Development with Ruby on Rails",
+      "Web Development with PHP and Laravel"
+    ]
+  },
+  {
+    "fullName": "Thorndike Lockier",
+    "email": "tlockier1h@prweb.com",
+    "userName": "tlockier1h",
+    "password": "pass",
+    "phoneNo": "+86 463 579 8874",
+    "course": "Bachelor of Artificial Intelligence (AI)",
+    "yearOfStudy": 3,
+    "techStack": [
+      "User Interface and User Experience design",
+      "Web Development with PHP and Laravel"
+    ]
+  },
+  {
+    "fullName": "Rowe Bear",
+    "email": "rbear1i@un.org",
+    "userName": "rbear1i",
+    "password": "pass",
+    "phoneNo": "+62 429 495 1716",
+    "course": "Bachelor of Web Development",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Web Development with MEAN Stack",
+      "Mobile Development with Flutter"
+    ]
+  },
+  {
+    "fullName": "Daffy Stenson",
+    "email": "dstenson1j@sohu.com",
+    "userName": "dstenson1j",
+    "password": "pass",
+    "phoneNo": "+389 847 441 1551",
+    "course": "Bachelor of Computer Engineering",
+    "yearOfStudy": 3,
+    "techStack": [
+      "User Interface and User Experience design",
+      "Web Development with Java and Spring"
+    ]
+  },
+  {
+    "fullName": "Daria Le Jean",
+    "email": "dle1k@qq.com",
+    "userName": "dle1k",
+    "password": "pass",
+    "phoneNo": "+30 188 661 0147",
+    "course": "Bachelor of Science in Cybersecurity",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Microsoft Power Platform",
+      "Web Development with PHP and Laravel"
+    ]
+  },
+  {
+    "fullName": "Angeli Wanell",
+    "email": "awanell1l@washingtonpost.com",
+    "userName": "awanell1l",
+    "password": "pass",
+    "phoneNo": "+55 329 108 6433",
+    "course": "Bachelor of Science in Computer Science",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Web Development with MEAN Stack",
+      "Web Development with PHP and Laravel"
+    ]
+  },
+  {
+    "fullName": "Raphaela Ramme",
+    "email": "rramme1m@sitemeter.com",
+    "userName": "rramme1m",
+    "password": "pass",
+    "phoneNo": "+237 479 181 1377",
+    "course": "Bachelor of IT Project Management",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Web Development with Python and Django",
+      "Web Development with Java and Spring"
+    ]
+  },
+  {
+    "fullName": "Griz Tabrett",
+    "email": "gtabrett1n@twitpic.com",
+    "userName": "gtabrett1n",
+    "password": "pass",
+    "phoneNo": "+86 597 609 1717",
+    "course": "Bachelor of Network Engineering",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Web Development with MEAN Stack",
+      "Web Development with ASP.NET"
+    ]
+  },
+  {
+    "fullName": "Danita Farans",
+    "email": "dfarans1o@creativecommons.org",
+    "userName": "dfarans1o",
+    "password": "pass",
+    "phoneNo": "+216 372 433 0228",
+    "course": "Bachelor of Science in Cybersecurity",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Web Development with PHP and Laravel",
+      "User Interface and User Experience design"
+    ]
+  },
+  {
+    "fullName": "Mac Kieran",
+    "email": "mkieran1p@cam.ac.uk",
+    "userName": "mkieran1p",
+    "password": "pass",
+    "phoneNo": "+46 783 166 8634",
+    "course": "Bachelor of Cloud Computing",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Cybersecurity",
+      "Web Development with Python and Django"
+    ]
+  },
+  {
+    "fullName": "Lek Dominguez",
+    "email": "ldominguez1q@tiny.cc",
+    "userName": "ldominguez1q",
+    "password": "pass",
+    "phoneNo": "+1 915 870 8849",
+    "course": "Bachelor of Information Technology (BIT)",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Cloud Computing with Microsoft Azure",
+      "Microsoft Power Platform"
+    ]
+  },
+  {
+    "fullName": "Edith Duckitt",
+    "email": "educkitt1r@4shared.com",
+    "userName": "educkitt1r",
+    "password": "pass",
+    "phoneNo": "+380 730 969 4013",
+    "course": "Bachelor of Cloud Computing",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Machine Learning and AI with Python",
+      "Microsoft Power Platform"
+    ]
+  },
+  {
+    "fullName": "Nial Silcox",
+    "email": "nsilcox1s@geocities.com",
+    "userName": "nsilcox1s",
+    "password": "pass",
+    "phoneNo": "+48 499 282 7056",
+    "course": "Bachelor of Mobile App Development",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Machine Learning and AI with Python",
+      "Web Development with MEAN Stack"
+    ]
+  },
+  {
+    "fullName": "Neala Malcher",
+    "email": "nmalcher1t@quantcast.com",
+    "userName": "nmalcher1t",
+    "password": "pass",
+    "phoneNo": "+86 792 854 0809",
+    "course": "Bachelor of Artificial Intelligence (AI)",
+    "yearOfStudy": 2,
+    "techStack": [
+      "User Interface and User Experience design",
+      "Web Development with MERN Stack"
+    ]
+  },
+  {
+    "fullName": "Pauli Morter",
+    "email": "pmorter1u@europa.eu",
+    "userName": "pmorter1u",
+    "password": "pass",
+    "phoneNo": "+62 808 229 8396",
+    "course": "Bachelor of Software Engineering",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Web Development with Ruby on Rails",
+      "User Interface and User Experience design"
+    ]
+  },
+  {
+    "fullName": "Peterus Cartmell",
+    "email": "pcartmell1v@mtv.com",
+    "userName": "pcartmell1v",
+    "password": "pass",
+    "phoneNo": "+234 716 245 7157",
+    "course": "Bachelor of Mobile App Development",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Web Development with MERN Stack",
+      "Web Development with Java and Spring"
+    ]
+  },
+  {
+    "fullName": "Gherardo Tirrell",
+    "email": "gtirrell1w@google.nl",
+    "userName": "gtirrell1w",
+    "password": "pass",
+    "phoneNo": "+62 491 955 2185",
+    "course": "Bachelor of Software Engineering",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Web Development with MEAN Stack",
+      "Microsoft Power Platform"
+    ]
+  },
+  {
+    "fullName": "Bartholomeus Brose",
+    "email": "bbrose1x@google.co.jp",
+    "userName": "bbrose1x",
+    "password": "pass",
+    "phoneNo": "+62 898 323 8640",
+    "course": "Bachelor of Information Technology Management",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Web Development with ASP.NET",
+      "Mobile Development with React Native"
+    ]
+  },
+  {
+    "fullName": "Verene Worsham",
+    "email": "vworsham1y@bing.com",
+    "userName": "vworsham1y",
+    "password": "pass",
+    "phoneNo": "+60 224 329 8213",
+    "course": "Bachelor of IT Project Management",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Web Development with Python and Django",
+      "Machine Learning and AI with Python"
+    ]
+  },
+  {
+    "fullName": "Jeralee McCleary",
+    "email": "jmccleary1z@bloglovin.com",
+    "userName": "jmccleary1z",
+    "password": "pass",
+    "phoneNo": "+852 402 734 3788",
+    "course": "Bachelor of Data Science",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Mobile Development with React Native",
+      "Web Development with PHP and Laravel"
+    ]
+  },
+  {
+    "fullName": "Howie Frammingham",
+    "email": "hframmingham20@tiny.cc",
+    "userName": "hframmingham20",
+    "password": "pass",
+    "phoneNo": "+62 748 774 7832",
+    "course": "Bachelor of Science in Computer Science",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Cloud Computing with Microsoft Azure",
+      "Web Development with PHP and Laravel"
+    ]
+  },
+  {
+    "fullName": "Evangeline Hartnup",
+    "email": "ehartnup21@patch.com",
+    "userName": "ehartnup21",
+    "password": "pass",
+    "phoneNo": "+86 475 668 4725",
+    "course": "Bachelor of Information Technology Management",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Machine Learning and AI with Python",
+      "Mobile Development with React Native"
+    ]
+  },
+  {
+    "fullName": "Reagan Corteney",
+    "email": "rcorteney22@sciencedirect.com",
+    "userName": "rcorteney22",
+    "password": "pass",
+    "phoneNo": "+33 582 212 1575",
+    "course": "Bachelor of Information Systems (BIS)",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Mobile Development with React Native",
+      "Web Development with MEAN Stack"
+    ]
+  },
+  {
+    "fullName": "Arleta Vakhonin",
+    "email": "avakhonin23@histats.com",
+    "userName": "avakhonin23",
+    "password": "pass",
+    "phoneNo": "+976 692 457 2203",
+    "course": "Bachelor of Game Design and Development",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Mobile Development with Flutter",
+      "Cybersecurity"
+    ]
+  },
+  {
+    "fullName": "Claudian Zylberdik",
+    "email": "czylberdik24@usda.gov",
+    "userName": "czylberdik24",
+    "password": "pass",
+    "phoneNo": "+7 952 925 5840",
+    "course": "Bachelor of Information Systems (BIS)",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Cloud Computing with Microsoft Azure",
+      "Mobile Development with React Native"
+    ]
+  },
+  {
+    "fullName": "Clarance Licciardo",
+    "email": "clicciardo25@alexa.com",
+    "userName": "clicciardo25",
+    "password": "pass",
+    "phoneNo": "+86 958 219 7060",
+    "course": "Bachelor of IT Project Management",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Cloud Computing with Microsoft Azure",
+      "Web Development with ASP.NET"
+    ]
+  },
+  {
+    "fullName": "Andromache Howgego",
+    "email": "ahowgego26@intel.com",
+    "userName": "ahowgego26",
+    "password": "pass",
+    "phoneNo": "+967 552 854 5152",
+    "course": "Bachelor of Web Development",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Mobile Development with Flutter",
+      "Web Development with MERN Stack"
+    ]
+  },
+  {
+    "fullName": "Catherine Fessby",
+    "email": "cfessby27@about.com",
+    "userName": "cfessby27",
+    "password": "pass",
+    "phoneNo": "+86 688 510 7685",
+    "course": "Bachelor of Artificial Intelligence (AI)",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Web Development with LAMP Stack",
+      "Web Development with MEAN Stack"
+    ]
+  },
+  {
+    "fullName": "Marsha Wines",
+    "email": "mwines28@a8.net",
+    "userName": "mwines28",
+    "password": "pass",
+    "phoneNo": "+7 346 265 3351",
+    "course": "Bachelor of Mobile App Development",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Machine Learning and AI with Python",
+      "Web Development with LAMP Stack"
+    ]
+  },
+  {
+    "fullName": "Bary Schwerin",
+    "email": "bschwerin29@mashable.com",
+    "userName": "bschwerin29",
+    "password": "pass",
+    "phoneNo": "+993 676 603 5046",
+    "course": "Bachelor of Information Systems (BIS)",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Machine Learning and AI with Python",
+      "Mobile Development with Flutter"
+    ]
+  },
+  {
+    "fullName": "Olivero McDermid",
+    "email": "omcdermid2a@guardian.co.uk",
+    "userName": "omcdermid2a",
+    "password": "pass",
+    "phoneNo": "+1 419 693 2374",
+    "course": "Bachelor of IT Project Management",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Machine Learning and AI with Python",
+      "Cloud Computing with Microsoft Azure"
+    ]
+  },
+  {
+    "fullName": "Emmery Calbreath",
+    "email": "ecalbreath2b@blinklist.com",
+    "userName": "ecalbreath2b",
+    "password": "pass",
+    "phoneNo": "+86 182 394 1865",
+    "course": "Bachelor of Network Engineering",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Web Development with PHP and Laravel",
+      "Web Development with ASP.NET"
+    ]
+  },
+  {
+    "fullName": "Chicky Saich",
+    "email": "csaich2c@craigslist.org",
+    "userName": "csaich2c",
+    "password": "pass",
+    "phoneNo": "+57 159 587 9194",
+    "course": "Bachelor of Information Technology Management",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Machine Learning and AI with Python",
+      "Web Development with PHP and Laravel"
+    ]
+  },
+  {
+    "fullName": "Kippy Stanlock",
+    "email": "kstanlock2d@delicious.com",
+    "userName": "kstanlock2d",
+    "password": "pass",
+    "phoneNo": "+62 705 727 9992",
+    "course": "Bachelor of Information Systems (BIS)",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Cloud Computing with Microsoft Azure",
+      "Machine Learning and AI with Python"
+    ]
+  },
+  {
+    "fullName": "Bevon Branscomb",
+    "email": "bbranscomb2e@slashdot.org",
+    "userName": "bbranscomb2e",
+    "password": "pass",
+    "phoneNo": "+7 412 523 8491",
+    "course": "Bachelor of Computer Engineering",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Web Development with Python and Django",
+      "Web Development with Java and Spring"
+    ]
+  },
+  {
+    "fullName": "Noach Derby",
+    "email": "nderby2f@ebay.co.uk",
+    "userName": "nderby2f",
+    "password": "pass",
+    "phoneNo": "+977 111 360 9138",
+    "course": "Bachelor of Science in Computer Science",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Microsoft Power Platform",
+      "Cybersecurity"
+    ]
+  },
+  {
+    "fullName": "Denice Flaonier",
+    "email": "dflaonier2g@etsy.com",
+    "userName": "dflaonier2g",
+    "password": "pass",
+    "phoneNo": "+63 449 960 7434",
+    "course": "Bachelor of Artificial Intelligence (AI)",
+    "yearOfStudy": 1,
+    "techStack": [
+      "Web Development with MERN Stack",
+      "Mobile Development with React Native"
+    ]
+  },
+  {
+    "fullName": "Sib Elles",
+    "email": "selles2h@sakura.ne.jp",
+    "userName": "selles2h",
+    "password": "pass",
+    "phoneNo": "+355 344 696 5986",
+    "course": "Bachelor of Mobile App Development",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Cybersecurity",
+      "Web Development with MERN Stack"
+    ]
+  },
+  {
+    "fullName": "Phebe Reddel",
+    "email": "preddel2i@ucoz.com",
+    "userName": "preddel2i",
+    "password": "pass",
+    "phoneNo": "+420 802 588 6559",
+    "course": "Bachelor of Computer Engineering",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Mobile Development with Flutter",
+      "Cloud Computing with Microsoft Azure"
+    ]
+  },
+  {
+    "fullName": "Dehlia Kas",
+    "email": "dkas2j@jigsy.com",
+    "userName": "dkas2j",
+    "password": "pass",
+    "phoneNo": "+216 727 619 0752",
+    "course": "Bachelor of Information Systems (BIS)",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Web Development with LAMP Stack",
+      "Web Development with PHP and Laravel"
+    ]
+  },
+  {
+    "fullName": "Dyanna Bum",
+    "email": "dbum2k@forbes.com",
+    "userName": "dbum2k",
+    "password": "pass",
+    "phoneNo": "+963 291 945 6646",
+    "course": "Bachelor of Artificial Intelligence (AI)",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Web Development with ASP.NET",
+      "Web Development with Java and Spring"
+    ]
+  },
+  {
+    "fullName": "Robina Swannack",
+    "email": "rswannack2l@google.fr",
+    "userName": "rswannack2l",
+    "password": "pass",
+    "phoneNo": "+62 741 758 8307",
+    "course": "Bachelor of Information Technology Management",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Web Development with PHP and Laravel",
+      "Cloud Computing with Microsoft Azure"
+    ]
+  },
+  {
+    "fullName": "Marco Othen",
+    "email": "mothen2m@zdnet.com",
+    "userName": "mothen2m",
+    "password": "pass",
+    "phoneNo": "+86 723 387 5479",
+    "course": "Bachelor of Information Systems (BIS)",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Web Development with Ruby on Rails",
+      "Web Development with PHP and Laravel"
+    ]
+  },
+  {
+    "fullName": "Cam Bichener",
+    "email": "cbichener2n@tuttocitta.it",
+    "userName": "cbichener2n",
+    "password": "pass",
+    "phoneNo": "+232 380 234 2072",
+    "course": "Bachelor of Game Design and Development",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Web Development with Python and Django",
+      "Mobile Development with React Native"
+    ]
+  },
+  {
+    "fullName": "Othilie Geratt",
+    "email": "ogeratt2o@comsenz.com",
+    "userName": "ogeratt2o",
+    "password": "pass",
+    "phoneNo": "+86 186 684 8259",
+    "course": "Bachelor of Software Engineering",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Cloud Computing with Microsoft Azure",
+      "Mobile Development with Flutter"
+    ]
+  },
+  {
+    "fullName": "Josepha Beeho",
+    "email": "jbeeho2p@webmd.com",
+    "userName": "jbeeho2p",
+    "password": "pass",
+    "phoneNo": "+86 254 620 0935",
+    "course": "Bachelor of Web Development",
+    "yearOfStudy": 2,
+    "techStack": [
+      "Cloud Computing with Microsoft Azure",
+      "Mobile Development with Flutter"
+    ]
+  },
+  {
+    "fullName": "Coreen Tedstone",
+    "email": "ctedstone2q@chronoengine.com",
+    "userName": "ctedstone2q",
+    "password": "pass",
+    "phoneNo": "+420 443 357 7966",
+    "course": "Bachelor of Information Technology Management",
+    "yearOfStudy": 4,
+    "techStack": [
+      "Web Development with LAMP Stack",
+      "Microsoft Power Platform"
+    ]
+  },
+  {
+    "fullName": "Isaiah Ronaldson",
+    "email": "ironaldson2r@economist.com",
+    "userName": "ironaldson2r",
+    "password": "pass",
+    "phoneNo": "+46 739 260 0821",
+    "course": "Bachelor of Information Technology (BIT)",
+    "yearOfStudy": 3,
+    "techStack": [
+      "Web Development with ASP.NET",
+      "Web Development with Python and Django"
+    ]
+  }
+]
