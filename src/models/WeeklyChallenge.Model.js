@@ -10,7 +10,7 @@ const responseSchema = new mongoose.Schema({
   },
   comment: {
     type: String,
-    default: '', // Default to an empty string
+    default: "", // Default to an empty string
   },
   rateResponse: {
     type: Number,
@@ -21,11 +21,14 @@ const responseSchema = new mongoose.Schema({
   timestamp: {
     type: Date,
     default: Date.now,
-  }
-  
+  },
 });
 const weeklyChallengeSchema = new mongoose.Schema(
   {
+    topic: {
+      type: String,
+      required: true,
+    },
     question: {
       type: String,
       required: true,
@@ -34,15 +37,18 @@ const weeklyChallengeSchema = new mongoose.Schema(
     uploadedBy: {
       type: String,
       required: true,
-    },    
+    },
     techStack: {
       type: String,
       required: true,
-    },     
+    },
   },
   { timestamps: true }
 );
 
-const WeeklyChallengeModel = mongoose.model("Admin", weeklyChallengeSchema);
+const WeeklyChallengeModel = mongoose.model(
+  "WeeklyChallenge",
+  weeklyChallengeSchema
+);
 
 export default WeeklyChallengeModel;
