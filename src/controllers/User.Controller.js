@@ -34,6 +34,7 @@ export const createUser = async (req, res) => {
       course,
       yearOfStudy,
       techStack,
+      socialMedia,
     } = req.body;
 
     const existingUser = await UserModel.findOne({
@@ -55,6 +56,7 @@ export const createUser = async (req, res) => {
         yearOfStudy,
         techStack,
         userType: "user",
+        socialMedia,
       })
     ) {
       res.status(201).json(req.body);
@@ -104,6 +106,7 @@ export const updateUser = async (req, res) => {
       course,
       yearOfStudy,
       techStack,
+      socialMedia,
     } = req.body;
     if (
       !fullName &&
@@ -112,7 +115,8 @@ export const updateUser = async (req, res) => {
       !password &&
       !course &&
       !yearOfStudy &&
-      !techStack
+      !techStack &&
+      !socialMedia
     ) {
       handleValidationError(
         { details: [{ message: "At least one property must be updated" }] },
@@ -125,7 +129,7 @@ export const updateUser = async (req, res) => {
       handleUserNotFound(res);
       return;
     }
-    // Update only the available user properties
+    
     email && (user.email = email);
     fullName && (user.fullName = fullName);
     userName && (user.userName = userName);
@@ -133,6 +137,11 @@ export const updateUser = async (req, res) => {
     course && (user.course = course);
     yearOfStudy && (user.yearOfStudy = yearOfStudy);
     techStack && (user.techStack = techStack);
+
+    if (socialMedia){
+      user.socialMedia = socialMedia;
+    }
+    
     await user.save();
     res.status(200).json(user);
   };
@@ -174,6 +183,7 @@ export const loginUser = async (req, res) => {
         const isPasswordValid = bcrypt.compareSync(password, user.password);
         if (!isPasswordValid) {
           handleWrongCredentials(res);
+          console.log(res)
           return;
         } else {
           const token = `JWT ${jwt.sign(

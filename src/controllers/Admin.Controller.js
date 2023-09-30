@@ -33,6 +33,7 @@ export const createAdmin = async (req, res) => {
       course,
       yearOfStudy,
       techStack,
+      socialMedia,
     } = req.body;
 
     const existingUser = await AdminModel.findOne({
@@ -55,6 +56,7 @@ export const createAdmin = async (req, res) => {
         yearOfStudy,
         techStack,
         userType: "admin",
+        socialMedia,
       })
     ) {
       res.status(201).json(req.body);
@@ -97,6 +99,7 @@ export const updateAdmin = async (req, res) => {
       course,
       yearOfStudy,
       techStack,
+      socialMedia,
     } = req.body;
     const user = await AdminModel.findById(id);
     if (!user) {
@@ -112,6 +115,10 @@ export const updateAdmin = async (req, res) => {
     course && (user.course = course);
     yearOfStudy && (user.yearOfStudy = yearOfStudy);
     techStack && (user.techStack = techStack);
+
+    if (socialMedia) {
+      user.socialMedia = socialMedia;
+    }
     await user.save();
     const { password: userPassword, ...userWithoutPassword } = user._doc;
     res.status(200).json(userWithoutPassword);

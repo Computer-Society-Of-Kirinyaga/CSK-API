@@ -47,6 +47,12 @@ export const handleFutureEventNotFound = (res) => {
 export const handlePastEventNotFound = (res) => {
   res.status(404).json({ message: "No past Event found" });
 };
+export const handleUserRegisterEventExist = (res) => {
+  res.status(401).json({ message: 'User is already registered for this event' });
+};
+export const handleSuccess = (res, response) => {
+  res.status(200).json({ message: response });
+};
 
 //LIBRARY FACTORY FUNCTIONS
 export const handleLibraryExists = (res) => {
