@@ -17,19 +17,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Computer-Society-Of-Kirinyaga/CSK-API"
-  },
-  "author": {
-    "name": "Kevin Comba",
-    "email": "kelchospense88@gmail.com",
-    "url": "https://kevincomba.me"
-  },
-  "contributors": [
-    {
-      "name": "Denis Wachira",
-      "email": "deniswachira77@gmail.com",
-      "url": "http://deniswachira.me"
-    }
-  ],
+  },   
   "dependencies": {
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.2",
@@ -53,5 +41,24 @@
   "devDependencies": {
     "jest": "^29.7.0",
     "nodemon": "^3.0.1"
+  },
+  "author": {
+    "name": "Kevin Comba",
+    "email": "kelchospense88@gmail.com",
+    "url": "https://kevincomba.me"
+  },
+  "contributors": [
+    {
+      "name": "Denis Wachira",
+      "email": "deniswachira77@gmail.com",
+      "url": "http://deniswachira.me"
+    },
+    {
+      "name": "Freshia Njoki",
+      "email": "fnjokimacharia@gmail.com",
+      "url": "coming soon"
+    },
+  ],
   }
+
 }
