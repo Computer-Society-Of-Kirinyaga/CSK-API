@@ -9,7 +9,7 @@ import adminRoutes from "./src/routes/Admin.Routes.js";
 import libraryRoutes from "./src/routes/Library.Routes.js";
 import LibraryFiles from "./src/controllers/LibraryFiles.Controller.js";
 import EventFiles from "./src/controllers/EventFiles.Controller.js";
-
+import blogRoutes from "./src/routes/Blog.Routes.js";
 import {
   authMiddleware,
   rateLimiterMiddleware,
@@ -48,6 +48,7 @@ userRoutes(app);
 EventRoutes(app);
 adminRoutes(app);
 libraryRoutes(app);
+blogRoutes(app);
 
 app.use("/libraryUpload", LibraryFiles); //upload & delete library files
 app.use("/eventUpload", EventFiles); //upload & delete library files
