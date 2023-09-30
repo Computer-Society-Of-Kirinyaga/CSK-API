@@ -17,7 +17,7 @@ export const userRegisterValidator = (user) => {
         Github: Joi.string().trim(),
     }),
   });
-  return userValidationSchema.validate(user);
+  return userValidationSchema.validate(user, { abortEarly: false });
 };
 
 export const userLoginValidator = (user) => {
