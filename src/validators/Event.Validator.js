@@ -7,8 +7,8 @@ export const eventRegisterValidator = (event) => {
     location: Joi.string(),
     posterURL: Joi.string(),
     date: Joi.date(),
-    startTime: Joi.string(),
-    endTime: Joi.string(),
+    startTime: Joi.date(),
+    endTime: Joi.date(),
     eventType: Joi.string().valid("online", "physical", "hybrid").required(),
     isDisabled: Joi.boolean(),
   });
