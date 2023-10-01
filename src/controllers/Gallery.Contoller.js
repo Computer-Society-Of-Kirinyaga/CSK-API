@@ -29,7 +29,7 @@ export const createGallery = async (req, res) => {
     tryCatchWrapper(handler, req, res);
 };
 
-export const getGallerys = async (req, res) => {
+export const getGalleries = async (req, res) => {
     const handler = async (req, res) => {
         const gallerysResponse = await GalleryModel.find();
         gallerysResponse.length > 0

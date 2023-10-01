@@ -12,7 +12,10 @@ import EventFiles from "./src/controllers/EventFiles.Controller.js";
 import blogRoutes from "./src/routes/Blog.Routes.js";
 import galleryRoutes from "./src/routes/Gallery.Routes.js";
 import weeklyChallengeRoutes from "./src/routes/WeeklyChallenge.Routes.js";
-import { authMiddleware, rateLimiterMiddleware, } from "./src/middlewares/Middlewares.js";
+import {
+  authMiddleware,
+  rateLimiterMiddleware,
+} from "./src/middlewares/Middlewares.js";
 
 const app = express(); //express instance
 //config cors & dotenv
