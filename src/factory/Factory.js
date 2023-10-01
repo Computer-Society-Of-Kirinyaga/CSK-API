@@ -38,8 +38,19 @@ export const handleEventExists = (res) => {
     error: "Event already exists. Choose a unique name to your Event.",
   });
 };
+export const handleGalleryNameExists = (res) => {
+  res.status(401).json({
+    error: "GalleryName already exists. Choose a unique name to your Galleryname.",
+  });
+};
 export const handleEventNotFound = (res) => {
   res.status(404).json({ message: "Event not found" });
+};
+export const handleGalleryNotFound = (res) => {
+  res.status(404).json({ message: "Gallery not found" });
+};
+export const handleBlogNotFound = (res) => {
+  res.status(404).json({ message: "Blog not found" });
 };
 export const handleFutureEventNotFound = (res) => {
   res.status(404).json({ message: "No Future Event found" });

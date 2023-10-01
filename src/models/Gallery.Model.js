@@ -13,7 +13,7 @@ const gallerySchema = new mongoose.Schema(
       trim: true,
     },
     imagesURL: {
-      type: [Strings],
+      type: [String],
       trim: true,
       required: true,
     },
