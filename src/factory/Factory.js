@@ -48,7 +48,9 @@ export const handlePastEventNotFound = (res) => {
   res.status(404).json({ message: "No past Event found" });
 };
 export const handleUserRegisterEventExist = (res) => {
-  res.status(401).json({ message: 'User is already registered for this event' });
+  res
+    .status(401)
+    .json({ message: "User is already registered for this event" });
 };
 export const handleSuccess = (res, response) => {
   res.status(200).json({ message: response });
@@ -62,4 +64,15 @@ export const handleLibraryExists = (res) => {
 };
 export const handleLibraryNotFound = (res) => {
   res.status(404).json({ message: "Library not found" });
+};
+
+//WEEKLY CHALLENGE FACTORY FUNCTIONS
+export const handleWeeklyChallengeExists = (res) => {
+  res.status(401).json({
+    error:
+      "Weekly Challenge already exists. Choose a unique name to your Weekly Challenge.",
+  });
+};
+export const handleWeeklyChallengeNotFound = (res) => {
+  res.status(404).json({ message: "Weekly Challenge not found" });
 };

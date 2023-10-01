@@ -10,6 +10,8 @@ import libraryRoutes from "./src/routes/Library.Routes.js";
 import LibraryFiles from "./src/controllers/LibraryFiles.Controller.js";
 import EventFiles from "./src/controllers/EventFiles.Controller.js";
 import blogRoutes from "./src/routes/Blog.Routes.js";
+import galleryRoutes from "./src/routes/Gallery.Routes.js";
+import weeklyChallengeRoutes from "./src/routes/WeeklyChallenge.Routes.js";
 import {
   authMiddleware,
   rateLimiterMiddleware,
@@ -49,6 +51,8 @@ EventRoutes(app);
 adminRoutes(app);
 libraryRoutes(app);
 blogRoutes(app);
+galleryRoutes(app);
+weeklyChallengeRoutes(app);
 
 app.use("/libraryUpload", LibraryFiles); //upload & delete library files
 app.use("/eventUpload", EventFiles); //upload & delete library files

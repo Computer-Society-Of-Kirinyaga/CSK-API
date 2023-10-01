@@ -2,11 +2,9 @@ import mongoose from "mongoose";
 const responseSchema = new mongoose.Schema({
   response: {
     type: String,
-    required: true,
   },
   respondedBy: {
     type: String,
-    required: true,
   },
   comment: {
     type: String,
